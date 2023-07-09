@@ -1,38 +1,95 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* スクロール */
+html { scroll-behavior: smooth;}
+
 .App {
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ヘッダー */
+header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  background: #1B9DF0;
   color: white;
+	/* left:0;
+	top:0;
+	margin:0;
+	z-index:1001;
+  position: fixed; */
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /*これを付け足し*/
 }
 
-.App-link {
-  color: #61dafb;
+.site-name {
+  text-align: center;
+  line-height: 100px;
+  padding-left: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav {
+  line-height: 100px;
+  padding: 0px;
+  margin: auto;
+}
+
+.menu {
+  display: flex;
+  list-style-type:none;
+}
+
+.menu-list {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding-left: 40px;
+  font-size:18px;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 1.0s ;
+  cursor: pointer;
+}
+
+a:hover {
+  color: black;
+}
+
+/** main */
+main {
+  margin-top: 100px;
+  height: 100%;
+}
+
+section {
+  border-bottom: groove;
+}
+
+.Works {
+  height: 500px;
+}
+
+.Skills {
+  height: 500px;
+}
+
+.AboutMe {
+  height: 500px;
+}
+
+.Contact {
+  height: 500px;
 }

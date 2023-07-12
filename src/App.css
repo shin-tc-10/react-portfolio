@@ -1,10 +1,32 @@
+/** 全体 */
 * {
   padding: 0px;
   margin: 0px;
 }
 
-/* スクロール */
-html { scroll-behavior: smooth;}
+h2 {
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+section {
+  margin-bottom: 150px;
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+a {
+  text-decoration: none;
+  transition: 1.0s ;
+  cursor: pointer;
+  color: white;
+}
+
+a:hover {
+  color: rgb(228, 218, 218);
+}
 
 .App {
   text-align: center;
@@ -16,26 +38,27 @@ html { scroll-behavior: smooth;}
 header {
   display: flex;
   width: 100%;
-  /* background: #1B9DF0; */
   color: white;
 	left:0;
 	top:0;
 	margin:0;
-	z-index:1001;
-  position: fixed;
-	/* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); これを付け足し */
+  /* position: fixed; */
+  position: absolute;
+  z-index:100;
 }
 
 .site-name {
   text-align: center;
   line-height: 100px;
   padding-left: 30px;
+  font-size: 0.9rem;
 }
 
 nav {
   line-height: 100px;
   padding: 0px;
   margin: auto;
+  width: 40%;
 }
 
 .menu {
@@ -45,83 +68,43 @@ nav {
 
 .menu-list {
   display: inline-block;
-  width: 100px;
+  width: 100%;
   text-align: center;
-  padding-left: 40px;
-  font-size:21px;
+  padding-left: 50px;
+  font-size:1.4rem;
   font-weight: bold;
 }
 
+/** トップ画像 */
 .top-img img {
   width: 100%;
   background-size: cover;
 }
 
-.skill-img img {
-  width: 100%;
-  background-size: cover;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  transition: 1.0s ;
-  cursor: pointer;
-}
-
-a:hover {
-  color: black;
-}
 
 /** main */
-h2 {
-  font-size: 40px;
-  color: #555555;
-}
-
 main {
   height: 100%;
+  background: rgb(248, 252, 255);
 }
 
+/** works */
 .works {
-  height: 600px;
+  /* height: 600px; */
 }
 
-.skills {
-  padding: 30px;
-}
-
-.about-me {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.contact {
-  /* height: 500px; */
+.works-app {
+  width: 450px;
+  height: 350px;
+  box-shadow: 0 0 5px gray;
+  padding: 40px;
+  margin: 10px;
 }
 
 .works-app-box {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
-}
-
-.skills-box {
-  display: flex;
-  justify-content: space-around;
-}
-
-.skill {
-  width: 200px;
-  height: 240px;
-  box-shadow: 0 0 5px gray;
-  padding: 40px;
-  margin: 10px;
-}
-
-.skill p {
-  font-weight: bold;
-  font-size: 20px;
 }
 
 .works {
@@ -132,14 +115,68 @@ main {
   padding-bottom: 20px;
 }
 
+/** skill */
+.skill-img img {
+  width: 100%;
+  background-size: cover;
+}
+
+.skills-box {
+  display: flex;
+  justify-content: space-around;
+}
+
 .skills {
   padding-top: 50px;
+}
+
+.skill {
+  width: 200px;
+  height: 240px;
+  box-shadow: 0 0 5px gray;
+  padding: 50px;
+  margin: 10px;
+}
+
+.skill p {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .skills h2 {
   padding-bottom: 20px;
 }
 
+/** qualifications */
+.qualification-img {
+  padding: 15px 0;
+}
+
+.qualification {
+  /* height: 500px; */
+}
+
+.qualifications-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.qualification {
+  box-shadow: 0 0 5px gray;
+  padding: 40px;
+  margin: 10px;
+}
+
+.qualifications p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/** aboutMe */
+.about-me {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 .cp_timeline04 {
 	position: relative;
@@ -208,4 +245,35 @@ main {
 		border-top: 1px solid #880e4f;
 		border-left: none;
 	}
+}
+
+/** Blog/GitHub*/
+.about-me a{
+  color: rgb(37, 128, 233);
+}
+
+.about-me-link-box {
+  height: 250px;
+}
+.about-me-link{
+  padding-top: 50px;
+}
+
+
+/** フッター */
+footer {
+  /* height: 100px; */
+  background: rgb(181, 209, 255);
+  line-height: 100px;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

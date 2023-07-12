@@ -9,6 +9,9 @@ import OracleImg from '../images/oracle.svg';
 import ReactImg from '../images/react.svg';
 import SpringImg from '../images/spring.svg';
 import SampleImg from '../images/sample.png';
+import JavaGoldImg from '../images/GLDSE11JPN.jpg';
+import JavaSilverImg from '../images/SILVSE11JPN.jpg';
+
 
 function Main() {
   return (
@@ -150,44 +153,82 @@ function Main() {
           </div>
         </section>
         <section>
+          <div className="qualifications" id="qualifications">
+            <h2>Qualification</h2>
+            <div className="qualifications-box">
+                <div className="qualification">
+                    <p>Java Programmer Gold SE11</p>
+                    <div className="qualification-img">
+                        <img src={JavaGoldImg} alt="qualification-img" />
+                    </div>
+                    <p>取得日：2022年11月</p>
+                </div>
+                <div className="qualification">
+                    <p>Java Programmer Silver SE11</p>
+                    <div className="qualification-img">
+                        <img src={JavaSilverImg} alt="qualification-img" />
+                    </div>
+                    <p>取得日：2022年3月</p>
+                </div>
+                {/* <div className="skill">
+                    <p>Ruby on Rails</p>
+                    <div className="skill-img">
+                        <img src={SampleImg} alt="works-image" />
+                    </div>
+                    <p>実務経験2年</p>
+                </div> */}
+            </div>
+          </div>
+        </section>
+        <section>
           <div className="about-me" id="about-me">
             <h2>About me</h2>
-            <p>Coming Soon</p>
             <div class="cp_timeline04">
                 <div class="timeline_item">
                     <div class="time_date">
-                        <p class="time">sample</p>
-                        <p class="flag">sample</p>
+                        <p class="time">1992年</p>
+                        <p class="flag">大阪で生まれる。</p>
                     </div>
                     <div class="desc">
-                        <p>sample</p>
+                        <p>生まれも育ちも大阪。中高は陸上部に所属。種目は中長距離走。冬は毎日15km~20kmは走っていた。</p>
                     </div>
                 </div>
 
                 <div class="timeline_item">
                     <div class="time_date">
-                        <p class="time">sample</p>
-                        <p class="flag">sample</p>
+                        <p class="time">2012年</p>
+                        <p class="flag">配送会社に就職</p>
                     </div>
                     <div class="desc">
-                        <p>sample</p>
+                        <p>面接時は倉庫での軽作業と聞いていたものの、実際は100kg~200kg程の重量物を2人で運搬する重作業だった。</p>
                     </div>
                 </div>
                 <div class="timeline_item">
                     <div class="time_date">
-                        <p class="time">sample</p>
-                        <p class="flag">sample</p>
+                        <p class="time">2012年</p>
+                        <p class="flag">販売員に転職</p>
                     </div>
                     <div class="desc">
-                        <p>sample</p>
+                        <p>通信機器を販売する販売員に転職。5年ほどで店長に昇進。7年ほど勤める。</p>
+                    </div>
+                </div>
+                <div class="timeline_item">
+                    <div class="time_date">
+                        <p class="time">2022年</p>
+                        <p class="flag">未経験からITエンジニアに転職</p>
+                    </div>
+                    <div class="desc">
+                        <p>自己学習していたプログラミングを本業にするため、実務未経験からITエンジニアに転職。</p>
                     </div>
                 </div>
             </div>
-          </div>
-        </section>
-        <section>
-          <div className="contact" id="contact">
-            <h2>Contact</h2>
+            <div className="about-me-link-box">
+                <h2>Blog / GitHub</h2>
+                <div className="about-me-link">
+                    <p>Zenn：<a href="https://zenn.dev/shin_re">https://zenn.dev/shin_re</a></p>
+                    <p>GitHub：<a href="https://github.com/shin-tc-10">https://github.com/shin-tc-10</a></p>
+                </div>
+            </div>
           </div>
         </section>
       </main>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3b2535f1.css",
-    "main.js": "/react-portfolio/static/js/main.a300e75d.js",
+    "main.css": "/react-portfolio/static/css/main.ca77d658.css",
+    "main.js": "/react-portfolio/static/js/main.a01f1d16.js",
     "static/media/software-development.jpg": "/react-portfolio/static/media/software-development.42ab44ae372c106b61e8.jpg",
     "static/media/jquery.svg": "/react-portfolio/static/media/jquery.6835562ee26c24f36d02a1e7bb5bd97d.svg",
     "static/media/spring.svg": "/react-portfolio/static/media/spring.bd565546e0b133d6dae76b0b4eac4543.svg",
@@ -12,11 +12,11 @@
     "index.html": "/react-portfolio/index.html",
     "static/media/css.svg": "/react-portfolio/static/media/css.db7dfd1247623e1e9223d8ef28a37432.svg",
     "static/media/html.svg": "/react-portfolio/static/media/html.a026abbb678246d70ee9b70e4aee972c.svg",
-    "main.3b2535f1.css.map": "/react-portfolio/static/css/main.3b2535f1.css.map",
-    "main.a300e75d.js.map": "/react-portfolio/static/js/main.a300e75d.js.map"
+    "main.ca77d658.css.map": "/react-portfolio/static/css/main.ca77d658.css.map",
+    "main.a01f1d16.js.map": "/react-portfolio/static/js/main.a01f1d16.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b2535f1.css",
-    "static/js/main.a300e75d.js"
+    "static/css/main.ca77d658.css",
+    "static/js/main.a01f1d16.js"
   ]
 }

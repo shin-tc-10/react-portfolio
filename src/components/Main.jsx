@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import SoftwareDevelopmentImg from '../images/software-development.jpg';
 
 function Main() {
   return (
     <div>
       <main>
         <section>
-          <div className="top-img"><img src="../images/software-development.jpg" alt="top-image" /></div>
+          <div className="top-img"><img src={SoftwareDevelopmentImg} /></div>
         </section>
         <section>
           <div className="works" id="works">

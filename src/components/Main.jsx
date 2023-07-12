@@ -1,5 +1,14 @@
 import React from 'react';
 import SoftwareDevelopmentImg from '../images/software-development.jpg';
+import HtmlImg from '../images/html.svg';
+import CssImg from '../images/css.svg';
+import JavaScriptImg from '../images/javascript.svg';
+import JavaImg from '../images/java.svg';
+import JqueryImg from '../images/jquery.svg';
+import OracleImg from '../images/oracle.svg';
+import ReactImg from '../images/react.svg';
+import SpringImg from '../images/spring.svg';
+import Works1Img from '../images/works1.png';
 
 function Main() {
   return (
@@ -52,7 +61,7 @@ function Main() {
                 <div className="skill">
                     <p>HTML</p>
                     <div className="skill-img">
-                        <img src="../images/html.svg" alt="works-image" />
+                        <img src={HtmlImg} />
                     </div>
                     <p>実務経験2年</p>
                 </div>

@@ -11,6 +11,10 @@ import SpringImg from '../images/spring.svg';
 import SampleImg from '../images/sample.png';
 import JavaGoldImg from '../images/GLDSE11JPN.jpg';
 import JavaSilverImg from '../images/SILVSE11JPN.jpg';
+import RubyImg from '../images/ruby.svg';
+import RailsImg from '../images/rails.svg';
+import GitHubImg from '../images/github-icon.svg';
+import LinuxImg from '../images/linux-tux.svg';
 
 
 function Main() {
@@ -31,7 +35,6 @@ function Main() {
                     </div>
                     <p>
                         このアプリはサンプルです。このアプリはサンプルです。
-                        <br/>このアプリはサンプルです。このアプリはサンプルです。
                     </p>
                 </div>
                 <div className="works-app">
@@ -41,7 +44,6 @@ function Main() {
                     </div>
                     <p>
                         このアプリはサンプルです。このアプリはサンプルです。
-                        <br/>このアプリはサンプルです。このアプリはサンプルです。
                     </p>
                 </div>
                 <div className="works-app">
@@ -51,7 +53,6 @@ function Main() {
                     </div>
                     <p>
                         このアプリはサンプルです。このアプリはサンプルです。
-                        <br/>このアプリはサンプルです。このアプリはサンプルです。
                     </p>
                 </div>
             </div>
@@ -124,28 +125,28 @@ function Main() {
                 <div className="skill">
                     <p>Ruby</p>
                     <div className="skill-img">
-                        <img src={SampleImg} alt="works-image" />
+                        <img src={RubyImg} alt="works-image" />
                     </div>
                     <p>自己学習3ヶ月</p>
                 </div>
                 <div className="skill">
                     <p>Ruby on Rails</p>
                     <div className="skill-img">
-                        <img src={SampleImg} alt="works-image" />
+                        <img src={RailsImg} alt="works-image" />
                     </div>
                     <p>実務経験2年</p>
                 </div>
                 <div className="skill">
                     <p>Git/GitHub</p>
                     <div className="skill-img">
-                        <img src={SampleImg} alt="works-image" />
+                        <img src={GitHubImg} alt="works-image" />
                     </div>
                     <p>実務経験1年</p>
                 </div>
                 <div className="skill">
                     <p>Linux</p>
                     <div className="skill-img">
-                        <img src={SampleImg} alt="works-image" />
+                        <img src={LinuxImg} alt="works-image" />
                     </div>
                     <p>実務経験2年</p>
                 </div>

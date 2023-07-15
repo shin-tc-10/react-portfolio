@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3ad491ce.css",
-    "main.js": "/react-portfolio/static/js/main.881582ad.js",
+    "main.css": "/react-portfolio/static/css/main.c85797f3.css",
+    "main.js": "/react-portfolio/static/js/main.d371955d.js",
     "static/media/software-development.jpg": "/react-portfolio/static/media/software-development.42ab44ae372c106b61e8.jpg",
+    "static/media/linux-tux.svg": "/react-portfolio/static/media/linux-tux.191c3e74aad311ecf63060df1e2bccd9.svg",
     "static/media/GLDSE11JPN.jpg": "/react-portfolio/static/media/GLDSE11JPN.bb77b60f456e4b09bbf9.jpg",
     "static/media/SILVSE11JPN.jpg": "/react-portfolio/static/media/SILVSE11JPN.39cd06ae11dde79ecbbb.jpg",
+    "static/media/ruby.svg": "/react-portfolio/static/media/ruby.5ae00dcb3ed720f0df26f8e7be9dc32d.svg",
     "static/media/jquery.svg": "/react-portfolio/static/media/jquery.6835562ee26c24f36d02a1e7bb5bd97d.svg",
+    "static/media/rails.svg": "/react-portfolio/static/media/rails.e23bfef5f4c3d33708e48a8ad995ef7b.svg",
+    "static/media/github-icon.svg": "/react-portfolio/static/media/github-icon.1b42be1942f9d8bc7a4a8f864f8e8735.svg",
     "static/media/spring.svg": "/react-portfolio/static/media/spring.bd565546e0b133d6dae76b0b4eac4543.svg",
     "static/media/oracle.svg": "/react-portfolio/static/media/oracle.c7b22cd3f4cb2a9dd9ae6f4b15bb2bf1.svg",
     "static/media/java.svg": "/react-portfolio/static/media/java.e09b59c616cb6423c36143d61ffad0b6.svg",
@@ -14,11 +18,11 @@
     "index.html": "/react-portfolio/index.html",
     "static/media/css.svg": "/react-portfolio/static/media/css.db7dfd1247623e1e9223d8ef28a37432.svg",
     "static/media/html.svg": "/react-portfolio/static/media/html.a026abbb678246d70ee9b70e4aee972c.svg",
-    "main.3ad491ce.css.map": "/react-portfolio/static/css/main.3ad491ce.css.map",
-    "main.881582ad.js.map": "/react-portfolio/static/js/main.881582ad.js.map"
+    "main.c85797f3.css.map": "/react-portfolio/static/css/main.c85797f3.css.map",
+    "main.d371955d.js.map": "/react-portfolio/static/js/main.d371955d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ad491ce.css",
-    "static/js/main.881582ad.js"
+    "static/css/main.c85797f3.css",
+    "static/js/main.d371955d.js"
   ]
 }

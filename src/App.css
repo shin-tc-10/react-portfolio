@@ -106,29 +106,30 @@ main {
 .works {
   /* height: 600px; */
 }
-
 .works-app-box {
-  /* display: flex; */
-  /* justify-content: space-around; */
-  /* margin-top: 20px; */
-}
-
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px 0 20px;
+} 
 .works-app {
-  width: 250px;
-  height: 300px;
+  /* width: 250px; */
+  /* height: 300px;
   box-shadow: 0 0 5px gray;
   padding: 50px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 20px; */
 }
-
 .works {
   /* padding-top: 50px; */
 }
-
 .works h2 {
   /* padding-bottom: 20px; */
 }
+
+.works-img img{
+  width: 100px;
+}
+
 
 /** skill */
 .skills {
@@ -172,6 +173,9 @@ main {
 }
 
 /** qualifications */
+.qualifications {
+  padding: 0 15px 0 15px;
+}
 .qualification-img {
   padding: 15px 0;
 }
@@ -181,12 +185,12 @@ main {
 }
 
 .qualifications-box {
-  /* display: flex;
-  justify-content: space-around; */
+  display: flex;
+  justify-content: space-around;
 }
 
 .qualification-img img {
-  width: 300px;
+  width: 130px;
 }
 
 .qualification {
@@ -198,7 +202,7 @@ main {
 
 .qualifications p {
   font-weight: bold;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 /** aboutMe */

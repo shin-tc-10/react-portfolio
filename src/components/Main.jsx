@@ -97,7 +97,7 @@ function Main() {
                     <div className="skill-img">
                         <img src={ReactImg} alt="works-image" />
                     </div>
-                    <p>自己学習3ヶ月</p>
+                    <p>独学3ヶ月</p>
                 </div>
                 <div className="skill">
                     <p>Java</p>
@@ -127,10 +127,10 @@ function Main() {
                     <div className="skill-img">
                         <img src={RubyImg} alt="works-image" />
                     </div>
-                    <p>自己学習3ヶ月</p>
+                    <p>独学3ヶ月</p>
                 </div>
                 <div className="skill">
-                    <p>Ruby on Rails</p>
+                    <p>Rails</p>
                     <div className="skill-img">
                         <img src={RailsImg} alt="works-image" />
                     </div>
@@ -219,7 +219,7 @@ function Main() {
                         <p class="flag">未経験からITエンジニアに転職</p>
                     </div>
                     <div class="desc">
-                        <p>自己学習していたプログラミングを本業にするため、実務未経験からITエンジニアに転職。</p>
+                        <p>独学していたプログラミングを本業にするため、実務未経験からITエンジニアに転職。</p>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import SoftwareDevelopmentImg from '../images/software-development.jpg';
 import HtmlImg from '../images/html.svg';
 import CssImg from '../images/css.svg';
 import JavaScriptImg from '../images/javascript.svg';
@@ -24,8 +23,10 @@ function Main() {
   return (
     <div>
       <main>
-        <div className="top-img"></div>
-        {/* <img src={SoftwareDevelopmentImg} /> */}
+        <div className="top">
+            <h1>My Portfolio Site</h1>
+            <p>スクロール</p>
+        </div>
         <section>
           <div className="works" id="works">
             <h2>Works</h2>

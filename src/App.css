@@ -16,16 +16,26 @@ body {
   opacity: 0.9;
 }
 
-body img {
-  /* opacity: 0.1; */
-}
-
 .App {
   /* max-width: 1200px; */
   /* margin: 0 auto; */
   font-size: 15px;
   width: 100%;
   height: 100%;
+}
+
+.top {
+  height: 700px;
+}
+
+.top h1 {
+  text-align: center;
+  line-height: 700px;
+}
+
+.top p {
+  text-align: center;
+  line-height: 800px;
 }
 
 /** トップ画像 */
@@ -692,6 +702,7 @@ body img {
     position: fixed;
     /* position: absolute; */
     z-index:100;
+    /* background: rgb(35, 35, 35); */
   }
 
   .site-name {
@@ -735,7 +746,7 @@ body img {
 
   /** works */
   .works {
-    /* height: 600px; */
+    padding-top: 50px;
   }
 
   .works-app-box {
@@ -750,16 +761,11 @@ body img {
     /* box-shadow: 0 0 5px gray; */
     margin: auto;
     margin-bottom: 30px;
-    padding: 12px;
   }
 
   .works-img img{
     width: 70%;
     /* height: 200px; */
-  }
-
-  .works {
-    padding-top: 50px;
   }
 
   .works h2 {
@@ -788,6 +794,8 @@ body img {
     /* margin: 10px; */
     margin: 0 auto;
     margin-bottom: 30px;
+    padding: 12px;
+    background: white;
   }
 
   .skill-img img {
@@ -795,9 +803,9 @@ body img {
   }
 
   .skill p {
-    font-weight: bold;
     font-size: 20px;
     padding: 10px;
+    color: black;
   }
 
   .skills h2 {

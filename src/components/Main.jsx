@@ -15,13 +15,17 @@ import RubyImg from '../images/ruby.svg';
 import RailsImg from '../images/rails.svg';
 import GitHubImg from '../images/github-icon.svg';
 import LinuxImg from '../images/linux-tux.svg';
+import TypeScriptImg from '../images/typescript-icon.svg';
+import NextJsImg from '../images/nextjs-icon.svg';
+import FireBaseImg from '../images/firebase.svg';
 
 
 function Main() {
   return (
     <div>
       <main>
-        <div className="top-img"><img src={SoftwareDevelopmentImg} /></div>
+        <div className="top-img"></div>
+        {/* <img src={SoftwareDevelopmentImg} /> */}
         <section>
           <div className="works" id="works">
             <h2>Works</h2>
@@ -45,7 +49,7 @@ function Main() {
                     </p>
                 </div>
                 <div className="works-app">
-                    <p>SNSアプリ</p>
+                    <p>Webサイト</p>
                     <div className="works-img">
                         <img src={SampleImg} alt="works-image" />
                     </div>
@@ -54,16 +58,7 @@ function Main() {
                     </p>
                 </div>
                 <div className="works-app">
-                    <p>SNSアプリ</p>
-                    <div className="works-img">
-                        <img src={SampleImg} alt="works-image" />
-                    </div>
-                    <p>
-                        このアプリはサンプルです。このアプリはサンプルです。
-                    </p>
-                </div>
-                <div className="works-app">
-                    <p>Todoアプリ</p>
+                    <p>チャットアプリ</p>
                     <div className="works-img">
                         <img src={SampleImg} alt="works-image" />
                     </div>
@@ -73,6 +68,15 @@ function Main() {
                 </div>
                 <div className="works-app">
                     <p>Todoアプリ</p>
+                    <div className="works-img">
+                        <img src={SampleImg} alt="works-image" />
+                    </div>
+                    <p>
+                        このアプリはサンプルです。このアプリはサンプルです。
+                    </p>
+                </div>
+                <div className="works-app">
+                    <p>サンプルアプリ</p>
                     <div className="works-img">
                         <img src={SampleImg} alt="works-image" />
                     </div>
@@ -109,6 +113,13 @@ function Main() {
                     <p>実務経験2年</p>
                 </div>
                 <div className="skill">
+                    <p>TypeScript</p>
+                    <div className="skill-img">
+                        <img src={TypeScriptImg} alt="works-image" />
+                    </div>
+                    <p>実務経験0.6年</p>
+                </div>
+                <div className="skill">
                     <p>jQuery</p>
                     <div className="skill-img">
                         <img src={JqueryImg} alt="works-image" />
@@ -119,6 +130,13 @@ function Main() {
                     <p>React</p>
                     <div className="skill-img">
                         <img src={ReactImg} alt="works-image" />
+                    </div>
+                    <p>独学3ヶ月</p>
+                </div>
+                <div className="skill">
+                    <p>Next.js</p>
+                    <div className="skill-img">
+                        <img src={NextJsImg} alt="works-image" />
                     </div>
                     <p>独学3ヶ月</p>
                 </div>
@@ -155,7 +173,7 @@ function Main() {
                     <div className="skill-img">
                         <img src={RailsImg} alt="works-image" />
                     </div>
-                    <p>実務経験2年</p>
+                    <p>独学3ヶ月</p>
                 </div>
                 <div className="skill">
                     <p>Git/GitHub</p>
@@ -168,6 +186,13 @@ function Main() {
                     <p>Linux</p>
                     <div className="skill-img">
                         <img src={LinuxImg} alt="works-image" />
+                    </div>
+                    <p>実務経験2年</p>
+                </div>
+                <div className="skill">
+                    <p>FireBase</p>
+                    <div className="skill-img">
+                        <img src={FireBaseImg} alt="works-image" />
                     </div>
                     <p>実務経験2年</p>
                 </div>

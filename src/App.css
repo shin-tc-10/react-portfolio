@@ -8,7 +8,7 @@
   /* max-width: 1200px; */
   margin: 0 auto;
   font-size: 16px;
-  color: #333;
+  width: 100%;
 }
 
 /* スマートフォン */
@@ -94,6 +94,7 @@ nav {
 /** main */
 main {
   height: 100%;
+  width: 100%;
   background: rgb(248, 252, 255);
 }
 
@@ -109,7 +110,7 @@ main {
 }
 
 .works-app {
-  width: 300px;
+  width: 250px;
   height: 300px;
   box-shadow: 0 0 5px gray;
   padding: 50px;
@@ -126,35 +127,42 @@ main {
 }
 
 /** skill */
+.skills {
+  /* max-width: 100px; */
+}
+
 .skill-img img {
-  width: 100%;
+  width: 40px;
   /* background-size: cover; */
+  padding: 5px 0 2px 0;
 }
 
 .skills-box {
-  /* display: flex;
-  justify-content: space-around; */
-  margin-bottom: 10px;
+  display: flex;
+  /* justify-content: space-around; */
+  /* margin-bottom: 10px; */
+  /* width: 200px; */
 
 }
 
 .skills {
   /* padding-top: 50px; */
+  margin: 5px;
+
 }
 
 .skill {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 70px;
   box-shadow: 0 0 5px gray;
-  padding: 70px;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  padding: 10px;
+  /* margin: 0 auto; */
+  margin: 0 5px 10px 0px;
 }
-
 
 .skill p {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 0.2rem;
 }
 
 .skills h2 {
@@ -369,7 +377,7 @@ nav {
 
 .menu-list {
   display: inline-block;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
   padding-left: 50px;
   font-size:1.4rem;

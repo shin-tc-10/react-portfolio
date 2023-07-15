@@ -21,9 +21,7 @@ function Main() {
   return (
     <div>
       <main>
-        <section>
-          <div className="top-img"><img src={SoftwareDevelopmentImg} /></div>
-        </section>
+        <div className="top-img"><img src={SoftwareDevelopmentImg} /></div>
         <section>
           <div className="works" id="works">
             <h2>Works</h2>
@@ -39,6 +37,33 @@ function Main() {
                 </div>
                 <div className="works-app">
                     <p>SNSアプリ</p>
+                    <div className="works-img">
+                        <img src={SampleImg} alt="works-image" />
+                    </div>
+                    <p>
+                        このアプリはサンプルです。このアプリはサンプルです。
+                    </p>
+                </div>
+                <div className="works-app">
+                    <p>SNSアプリ</p>
+                    <div className="works-img">
+                        <img src={SampleImg} alt="works-image" />
+                    </div>
+                    <p>
+                        このアプリはサンプルです。このアプリはサンプルです。
+                    </p>
+                </div>
+                <div className="works-app">
+                    <p>SNSアプリ</p>
+                    <div className="works-img">
+                        <img src={SampleImg} alt="works-image" />
+                    </div>
+                    <p>
+                        このアプリはサンプルです。このアプリはサンプルです。
+                    </p>
+                </div>
+                <div className="works-app">
+                    <p>Todoアプリ</p>
                     <div className="works-img">
                         <img src={SampleImg} alt="works-image" />
                     </div>
@@ -90,8 +115,6 @@ function Main() {
                     </div>
                     <p>実務経験1年</p>
                 </div>
-            </div>
-            <div className="skills-box">
                 <div className="skill">
                     <p>React</p>
                     <div className="skill-img">
@@ -120,8 +143,6 @@ function Main() {
                     </div>
                     <p>実務経験2年</p>
                 </div>
-            </div>
-            <div className="skills-box">
                 <div className="skill">
                     <p>Ruby</p>
                     <div className="skill-img">
@@ -151,7 +172,7 @@ function Main() {
                     <p>実務経験2年</p>
                 </div>
             </div>
-          </div>
+            </div>
         </section>
         <section>
           <div className="qualifications" id="qualifications">
@@ -223,9 +244,9 @@ function Main() {
                     </div>
                 </div>
             </div>
-            <div className="about-me-link-box">
+            <div className="link" id="link">
                 <h2>Blog / GitHub</h2>
-                <div className="about-me-link">
+                <div className="my-link">
                     <p>Zenn：<a href="https://zenn.dev/shin_re">https://zenn.dev/shin_re</a></p>
                     <p>GitHub：<a href="https://github.com/shin-tc-10">https://github.com/shin-tc-10</a></p>
                 </div>

@@ -12,7 +12,7 @@ function Header() {
             <li className="menu-list"><a href="#works">Works</a></li>
             <li className="menu-list"><a href="#skills">Skills</a></li>
             <li className="menu-list"><a href="#about-me">About me</a></li>
-            <li className="menu-list"><a href="#contact">Contact</a></li>
+            <li className="menu-list"><a href="#link">Blog/GitHub</a></li>
           </ul>
         </nav>
       </header>

@@ -17,6 +17,10 @@
     /* font-size: 40px; */
     padding-bottom: 50px;
   }
+
+  p {
+    font-size: 0.7rem;
+  }
   
   section {
     margin-bottom: 70px;
@@ -161,7 +165,6 @@ main {
 
 .skill p {
   font-weight: bold;
-  font-size: 0.7rem;
 }
 
 .skills h2 {

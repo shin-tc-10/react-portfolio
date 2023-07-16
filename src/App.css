@@ -7,15 +7,15 @@
   font-weight: bold;
 }
 
-/* body {
+body {
   background-image: url('./images/shutterstock_1662908713.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-} */
+}
 
-body::before {
+/* body::before {
   content: "";
   display: block;
   position: fixed;
@@ -27,7 +27,7 @@ body::before {
   background-image: url('./images/shutterstock_1662908713.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 .App {
   /* max-width: 1200px; */

@@ -38,7 +38,7 @@ body::before {
 }
 
 .top {
-  height: 700px;
+  height: 100px;
 }
 
 .top h1 {
@@ -57,6 +57,11 @@ body::before {
   /* height: auto; */
   /* background-size: cover; */
   /* background-attachment: fixed; */
+}
+
+main {
+  width: 75%;
+  margin: auto;
 }
 
 
@@ -679,9 +684,9 @@ body::before {
     padding: 100px 0 50px 0;
   }
   
-  /* section {
-    margin-bottom: 150px;
-  } */
+  section {
+    margin-bottom: 350px;
+  }
 
   /* html {
     scroll-behavior: smooth;
@@ -800,15 +805,13 @@ body::before {
   }
 
   .skill {
-    width: 16%;
-    height: 190px;
+    width: 15%;
+    height: 200px;
     box-shadow: 0 0 5px gray;
-    padding: 30px;
-    /* margin: 10px; */
-    margin: 0 auto;
-    margin-bottom: 30px;
-    padding: 12px;
+    padding: 10px;
+    margin: 20px;
     background: white;
+    opacity: 0.9;
   }
 
   .skill-img img {
@@ -834,7 +837,7 @@ body::before {
 
   .qualification {
     width: 40%;
-    box-shadow: 0 0 5px gray;
+    /* box-shadow: 0 0 5px gray; */
     /* padding: 40px; */
     margin: 10px;
     margin: 0 auto;
@@ -857,7 +860,7 @@ body::before {
 
   /** aboutMe */
   .about-me {
-    width: 900px;
+    /* width: 900px; */
     margin: 0 auto;
   }
 
@@ -865,6 +868,8 @@ body::before {
     position: relative;
     margin: 3em auto;
     padding-bottom: 2em;
+    margin-bottom: 100px;
+
   }
   .cp_timeline04:before {
     position: absolute;
@@ -930,12 +935,17 @@ body::before {
   }
 
   /** Blog/GitHub*/
+  .link {
+  }
+
+
+
   .my-link a{
     color: rgb(37, 128, 233);
   }
 
   .my-link {
-    height: 100px;
+    /* height: 200px; */
   }
 
 

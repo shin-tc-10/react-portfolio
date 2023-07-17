@@ -24,8 +24,7 @@ function Main() {
     <div>
       <main>
         <div className="top">
-            <h1>My Portfolio Site</h1>
-            <p>スクロール</p>
+            {/* <h1>My Portfolio</h1> */}
         </div>
         <section>
           <div className="works" id="works">

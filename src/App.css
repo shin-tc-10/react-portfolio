@@ -7,14 +7,6 @@
   font-weight: bold;
 }
 
-/* body {
-  background-image: url('./images/shutterstock_1662908713.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-} */
-
 body::before {
   content: "";
   display: block;
@@ -63,7 +55,6 @@ main {
   width: 75%;
   margin: auto;
 }
-
 
 /** スマートフォン ***********/
 /**************************/
@@ -805,10 +796,10 @@ main {
   }
 
   .skill {
-    width: 15%;
+    width: 16%;
     height: 200px;
     box-shadow: 0 0 5px gray;
-    padding: 10px;
+    /* padding: 10px; */
     margin: 20px;
     background: white;
     opacity: 0.9;

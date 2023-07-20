@@ -17,6 +17,7 @@ import LinuxImg from "../images/linux-tux.svg";
 import TypeScriptImg from "../images/typescript-icon.svg";
 import NextJsImg from "../images/nextjs-icon.svg";
 import FireBaseImg from "../images/firebase.svg";
+
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";

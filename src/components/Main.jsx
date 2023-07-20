@@ -50,7 +50,6 @@ function Main() {
         </div>
         <div className="scroll-arrow">
           <Link to="works" spy={true} smooth={true} offset={50} duration={500}>
-            <p>クリックで下にスクロール</p>
             <br />
             <FontAwesomeIcon
               icon={faAngleDown}

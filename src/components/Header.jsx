@@ -1,62 +1,117 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 
 function Header() {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <div>
-      <header>
-        <div className="site-name">{/* <h1>ShinMemo</h1> */}</div>
-        <nav>
-          <ul className="menu">
-            <li className="menu-list">
-              <Link
-                to="works"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Works
-              </Link>
-            </li>
-            <li className="menu-list">
-              <Link
-                to="skills"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Skills
-              </Link>
-            </li>
-            <li className="menu-list">
-              <Link
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                About
-              </Link>
-            </li>
-            <li className="menu-list">
-              <Link
-                to="link"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Blog / GitHub
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+    <header className="header">
+      {/* <div className="logo">Your Logo</div> */}
+      {/* メディアクエリでスマートフォンの幅以下の場合に表示 */}
+      {window.innerWidth <= 768 && (
+        <>
+          <div
+            className={`hamburger ${isMenuOpen ? "open" : ""}`}
+            onClick={toggleMenu}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav className={`menu ${isMenuOpen ? "open" : ""}`}>
+            <Link
+              to="works"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Works
+            </Link>
+            <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Skills
+            </Link>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              About
+            </Link>
+            <Link to="link" spy={true} smooth={true} offset={50} duration={500}>
+              Blog / GitHub
+            </Link>
+          </nav>
+        </>
+      )}
+    </header>
   );
+  // return (
+  //   <div>
+  //     <header>
+  //       <nav>
+  //         <ul className="menu">
+  //           <li className="menu-list">
+  //             <Link
+  //               to="works"
+  //               spy={true}
+  //               smooth={true}
+  //               offset={50}
+  //               duration={500}
+  //             >
+  //               Works
+  //             </Link>
+  //           </li>
+  //           <li className="menu-list">
+  //             <Link
+  //               to="skills"
+  //               spy={true}
+  //               smooth={true}
+  //               offset={50}
+  //               duration={500}
+  //             >
+  //               Skills
+  //             </Link>
+  //           </li>
+  //           <li className="menu-list">
+  //             <Link
+  //               to="about"
+  //               spy={true}
+  //               smooth={true}
+  //               offset={50}
+  //               duration={500}
+  //             >
+  //               About
+  //             </Link>
+  //           </li>
+  //           <li className="menu-list">
+  //             <Link
+  //               to="link"
+  //               spy={true}
+  //               smooth={true}
+  //               offset={50}
+  //               duration={500}
+  //             >
+  //               Blog / GitHub
+  //             </Link>
+  //           </li>
+  //         </ul>
+  //       </nav>
+  //     </header>
+  //   </div>
+  // );
 }
 
 export default Header;

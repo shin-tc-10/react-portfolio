@@ -30,7 +30,7 @@ body::before {
 }
 
 .top {
-  height: 600px;
+  height: 550px;
 }
 
 .top h1 {
@@ -41,6 +41,10 @@ body::before {
 .top p {
   text-align: center;
   line-height: 800px;
+}
+
+.scroll-arrow {
+  margin-bottom: 200px;
 }
 
 
@@ -113,16 +117,24 @@ main {
 /** スマートフォン ***********/
 /**************************/
 @media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* 左寄せにする */
+    width: 100%;
+  }
+
+
   .menu {
     display: none;
     flex-direction: column;
     position: absolute;
     top: 60px;
     left: 0;
-    width: 100%;
-    background-color: #333;
+    width: 40%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
-
   }
 
   .menu.open {

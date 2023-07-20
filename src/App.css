@@ -23,12 +23,10 @@ body::before {
 }
 
 .App {
-  /* max-width: 1200px; */
-  /* margin: 0 auto; */
   font-size: 15px;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.356);
+  background-color: rgba(0, 0, 0, 0.458);
 
 }
 
@@ -116,6 +114,24 @@ main {
 .loading-text {
   animation: blink 1s infinite;
 }
+
+  /** フッター */
+  footer {
+    height: 100px; 
+    background-color: rgba(0, 0, 0, 0.452); /* 半透明の黒 */
+    line-height: 100px;
+  }
+
+  footer img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 /** スマートフォン ***********/
 /**************************/
@@ -234,17 +250,13 @@ main {
   .skills-box {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-around; */
-    /* margin-bottom: 10px; */
-    /* width: 200px; */
+
   }
 
   .skill {
     width: 22%;
-    /* height: 100px; */
     box-shadow: 0 0 3px gray;
     padding: 15px;
-    /* margin: 0 5px 10px 0px; */
     margin: 0 auto;
     margin-bottom: 12px;
     background: white;
@@ -252,7 +264,6 @@ main {
 
   .skill-img img {
     width: 40px;
-    /* background-size: cover; */
     padding: 7px;
   }
 
@@ -261,44 +272,30 @@ main {
   }
 
   .skill p {
-    /* font-weight: bold; */
     color: black;
   }
 
 
   /** qualifications */
-  .qualifications {
-    /* padding: 0 15px 0 15px; */
-  }
-
-  .qualifications-box {
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* justify-content: space-around; */
-  }
-
   .qualification {
-    /* box-shadow: 0 0 5px gray; */
     margin: 0 auto;
     margin-bottom: 40px;
-    width: 85%;
+    width: 75%;
     background: white;
     padding: 15px;
   }
 
   .qualifications p {
-    /* font-weight: bold; */
     font-size: 16px;
     color: black;
   }
 
   .qualification-img {
-    padding: 20px;
+    padding: 10px;
   }
 
   .qualification-img img {
-    width: 80%;
-    /* padding: 10px; */
+    width: 70%;
   }
 
 
@@ -306,18 +303,12 @@ main {
   .about-me {
     width: 90%;
     margin: 0 auto;
-    /* background: white; */
-  }
-
-  .about-me p {
-    color: black;
   }
 
   .cp_timeline04 {
     position: relative;
     margin: 3em auto;
     padding-bottom: 2em;
-    background: white;
   }
   .cp_timeline04:before {
     position: absolute;
@@ -338,7 +329,7 @@ main {
     position: relative;
     margin: 0;
     letter-spacing: 3px;
-    color: rgba(233,30,99,0.1);
+    color: rgba(252, 252, 252, 0.255);
   }
   .cp_timeline04 .timeline_item .time_date .time:before {
     position: absolute;
@@ -393,28 +384,7 @@ main {
   .about-me-link-box {
     height: 200px;
   }
-  .about-me-link{
-    /* padding-top: 50px; */
-  }
 
-
-  /** フッター */
-  footer {
-    /* height: 100px; */
-    /* background: rgb(181, 209, 255); */
-    line-height: 100px;
-  }
-
-  footer img {
-    /* height: 50px; */
-    /* width: 50px; */
-  }
-
-  .footer-text {
-      /* display: flex; */
-      /* align-items: center; */
-      /* justify-content: center; */
-  }
 }
 
 
@@ -433,10 +403,6 @@ main {
   p {
     font-size: 0.7rem;
   }
-
-  /* html {
-    scroll-behavior: smooth;
-  } */
 
   a {
     text-decoration: none;
@@ -695,26 +661,6 @@ main {
     color: rgb(37, 128, 233);
   }
 
-
-
-  /** フッター */
-  footer {
-    /* height: 100px; */
-    /* background: rgb(181, 209, 255); */
-    line-height: 100px;
-  }
-
-  footer img {
-    /* height: 50px; */
-    /* width: 50px; */
-  }
-
-  .footer-text {
-      /* display: flex; */
-      /* align-items: center; */
-      /* justify-content: center; */
-  }
-
 }
 
 
@@ -923,32 +869,11 @@ main {
   .link {
   }
 
-
-
   .my-link a{
     color: rgb(37, 128, 233);
   }
 
   .my-link {
     /* height: 200px; */
-  }
-
-
-  /** フッター */
-  footer {
-    /* height: 100px; */
-    /* background: rgb(181, 209, 255); */
-    line-height: 100px;
-  }
-
-  footer img {
-    height: 50px;
-    width: 50px;
-  }
-
-  .footer-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 }

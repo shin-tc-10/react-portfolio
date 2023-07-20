@@ -31,8 +31,14 @@ function Header() {
           <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
             About
           </Link>
-          <Link to="link" spy={true} smooth={true} offset={50} duration={500}>
-            Blog / GitHub
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            contact
           </Link>
         </nav>
       </>

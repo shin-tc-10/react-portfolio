@@ -318,8 +318,19 @@ function Main() {
                   </div>
                 </div>
               </div>
+            </motion.div>
+          </div>
+        </section>
+        <section>
+          <div className="about-me" id="about" ref={ref4}>
+            <motion.div
+              initial="hidden"
+              animate={inView4 ? "visible" : "hidden"}
+              variants={fadeInVariants}
+              transition={{ duration: 2.0 }}
+            >
+              <h2>contact</h2>
               <div className="link" id="link">
-                <h2>Blog / GitHub</h2>
                 <div className="my-link">
                   <p>
                     Zenn：

@@ -30,7 +30,7 @@ body::before {
 }
 
 .top {
-  height: 100px;
+  height: 700px;
 }
 
 .top h1 {
@@ -61,7 +61,7 @@ main {
 @media (max-width: 767px) {
     
   section {
-    margin-top: 50px;
+    margin-top: 200px;
   }
 
   h2 {
@@ -140,6 +140,8 @@ main {
   main {
     height: 100%;
     width: 100%;
+    opacity: 0.9;
+
     /* background: rgb(248, 252, 255); */
   }
 

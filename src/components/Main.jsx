@@ -19,6 +19,9 @@ import NextJsImg from "../images/nextjs-icon.svg";
 import FireBaseImg from "../images/firebase.svg";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Main() {
   const [ref, inView] = useInView({
@@ -41,7 +44,21 @@ function Main() {
   return (
     <div>
       <main>
-        <div className="top"></div>
+        <div className="top">
+          <h1>Shin's Portfolio Site</h1>
+        </div>
+        <div className="scroll-arrow">
+          <Link to="works" spy={true} smooth={true} offset={50} duration={500}>
+            <p>クリックで下にスクロール</p>
+            <br />
+            <FontAwesomeIcon
+              icon={faAngleDown}
+              beatFade
+              size="2xl"
+              style={{ color: "#edeff3" }}
+            />
+          </Link>
+        </div>
         <section>
           <div className="works" id="works" ref={ref}>
             <motion.div
@@ -241,26 +258,19 @@ function Main() {
                   </div>
                   <p>取得日：2022年3月</p>
                 </div>
-                {/* <div className="skill">
-                    <p>Ruby on Rails</p>
-                    <div className="skill-img">
-                        <img src={SampleImg} alt="works-image" />
-                    </div>
-                    <p>実務経験2年</p>
-                </div> */}
               </div>
             </motion.div>
           </div>
         </section>
         <section>
-          <div className="about-me" id="about-me" ref={ref4}>
+          <div className="about-me" id="about" ref={ref4}>
             <motion.div
               initial="hidden"
               animate={inView4 ? "visible" : "hidden"}
               variants={fadeInVariants}
               transition={{ duration: 2.0 }}
             >
-              <h2>About me</h2>
+              <h2>About</h2>
               <div className="cp_timeline04">
                 <div className="timeline_item">
                   <div className="time_date">

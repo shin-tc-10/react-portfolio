@@ -19,6 +19,7 @@ body::before {
   background-image: url('./images/shutterstock_1662908713.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 .App {
@@ -27,6 +28,8 @@ body::before {
   font-size: 15px;
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.356);
+
 }
 
 .top {
@@ -123,7 +126,6 @@ main {
     justify-content: flex-end; /* 左寄せにする */
     width: 100%;
   }
-
 
   .menu {
     display: none;

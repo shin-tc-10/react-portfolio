@@ -48,6 +48,10 @@ body::before {
   margin-bottom: 200px;
 }
 
+section {
+  margin-bottom: 200px;
+}
+
 
 /* ヘッダー */
 .header {
@@ -61,10 +65,12 @@ body::before {
   left: 0;
   width: 100%;
   z-index: 1;
+  background-color: rgba(0, 0, 0, 0.364); /* 半透明の黒 */
+
 }
 
 nav {
-  line-height: 100px;
+  line-height: 50px;
   margin: auto;
   width: 70%;
 }
@@ -113,6 +119,122 @@ main {
 
 .loading-text {
   animation: blink 1s infinite;
+}
+
+ /** aboutMe */
+ .about-me {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cp_timeline04 {
+  position: relative;
+  margin: 3em auto;
+  padding-bottom: 2em;
+}
+.cp_timeline04:before {
+  position: absolute;
+  top: 0px;
+  left: 45px;
+  width: 3px;
+  height: 100%;
+  content: '';
+  background: #85aef4;
+}
+.cp_timeline04 .timeline_item {
+  margin: 0px 0px 0px 80px;
+}
+.cp_timeline04 .timeline_item .time_date .time {
+  font-family: serif;
+  font-size: 6em;
+  font-weight: bold;
+  position: relative;
+  margin: 0;
+  letter-spacing: 3px;
+  color: rgba(225, 215, 215, 0.4);
+}
+.cp_timeline04 .timeline_item .time_date .time:before {
+  position: absolute;
+  top: 50%;
+  left: -42px;
+  width: 10px;
+  height: 10px;
+  content: '';
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border: 3px solid #6fa4ff;
+  background: #fff;
+}
+.cp_timeline04 .timeline_item .time_date .flag {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+  margin-top: -60px;
+  color: white;
+}
+.cp_timeline04 .timeline_item .desc {
+  font-size: 0.8em;
+  line-height: 20px;
+  margin-top: 10px;
+  padding-left: 20px;
+  border-left: 1px solid #5c91f2;
+}
+
+.cp_timeline04:before {
+  left: 15px;
+}
+
+.cp_timeline04 .timeline_item .time_date .time:before {
+  left: -32px;
+}
+
+.cp_timeline04 .timeline_item {
+  margin: 0px 0px 0px 40px;
+}
+.cp_timeline04 .timeline_item .desc {
+  padding-left: 0px;
+  border-top: 1px solid #578bf3;
+  border-left: none;
+}
+
+
+/** Blog/GitHub*/
+.about-me a{
+  color: rgb(37, 128, 233);
+}
+
+.about-me-link-box {
+  height: 200px;
+}
+
+
+/** リンク集テーブル */
+.link-table {
+  margin: 2rem auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.link-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.link-table th,
+.link-table td {
+  font-size: 1.2rem;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.link-table a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.link-table a:hover {
+  color: #0056b3;
 }
 
   /** フッター */
@@ -186,10 +308,6 @@ main {
 
   .hamburger.open span:nth-child(3) {
     transform: rotate(45deg) translate(-5px, -7px);
-  }
-
-  section {
-    margin-top: 200px;
   }
 
   h2 {
@@ -299,91 +417,7 @@ main {
   }
 
 
-  /** aboutMe */
-  .about-me {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .cp_timeline04 {
-    position: relative;
-    margin: 3em auto;
-    padding-bottom: 2em;
-  }
-  .cp_timeline04:before {
-    position: absolute;
-    top: 0px;
-    left: 45px;
-    width: 3px;
-    height: 100%;
-    content: '';
-    background: #85aef4;
-  }
-  .cp_timeline04 .timeline_item {
-    margin: 0px 0px 0px 80px;
-  }
-  .cp_timeline04 .timeline_item .time_date .time {
-    font-family: serif;
-    font-size: 6em;
-    font-weight: bold;
-    position: relative;
-    margin: 0;
-    letter-spacing: 3px;
-    color: rgba(252, 252, 252, 0.15);
-  }
-  .cp_timeline04 .timeline_item .time_date .time:before {
-    position: absolute;
-    top: 50%;
-    left: -42px;
-    width: 10px;
-    height: 10px;
-    content: '';
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-    border: 3px solid #6fa4ff;
-    background: #fff;
-  }
-  .cp_timeline04 .timeline_item .time_date .flag {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 0;
-    margin-top: -60px;
-    color: white;
-  }
-  .cp_timeline04 .timeline_item .desc {
-    font-size: 0.8em;
-    line-height: 20px;
-    margin-top: 10px;
-    padding-left: 20px;
-    border-left: 1px solid #5c91f2;
-  }
-
-  .cp_timeline04:before {
-		left: 15px;
-	}
-
-	.cp_timeline04 .timeline_item .time_date .time:before {
-		left: -32px;
-	}
-
-	.cp_timeline04 .timeline_item {
-		margin: 0px 0px 0px 40px;
-	}
-	.cp_timeline04 .timeline_item .desc {
-		padding-left: 0px;
-		border-top: 1px solid #578bf3;
-		border-left: none;
-	}
-
-
-  /** Blog/GitHub*/
-  .about-me a{
-    color: rgb(37, 128, 233);
-  }
-
-  .about-me-link-box {
-    height: 200px;
-  }
+ 
 
 }
 
@@ -671,10 +705,6 @@ main {
     font-size: 40px;
     padding: 100px 0 50px 0;
   }
-  
-  section {
-    margin-bottom: 350px;
-  }
 
   a {
     text-decoration: none;
@@ -775,10 +805,6 @@ main {
     margin-bottom: 30px;
   }
 
-  .qualification-img {
-
-  }
-
   .qualification-img img{
     width: 90%;
   }
@@ -787,86 +813,6 @@ main {
     font-weight: bold;
     font-size: 20px;
     padding: 15px 0;
-  }
-
-  /** aboutMe */
-  .about-me {
-    /* width: 900px; */
-    margin: 0 auto;
-  }
-
-  .cp_timeline04 {
-    position: relative;
-    margin: 3em auto;
-    padding-bottom: 2em;
-    margin-bottom: 100px;
-
-  }
-  .cp_timeline04:before {
-    position: absolute;
-    top: 0px;
-    left: 45px;
-    width: 3px;
-    height: 100%;
-    content: '';
-    background: #e91e63;
-  }
-  .cp_timeline04 .timeline_item {
-    margin: 0px 0px 0px 80px;
-  }
-  .cp_timeline04 .timeline_item .time_date .time {
-    font-family: serif;
-    font-size: 6em;
-    font-weight: bold;
-    position: relative;
-    margin: 0;
-    letter-spacing: 3px;
-    color: rgba(245, 234, 238, 0.1);
-  }
-  .cp_timeline04 .timeline_item .time_date .time:before {
-    position: absolute;
-    top: 50%;
-    left: -42px;
-    width: 10px;
-    height: 10px;
-    content: '';
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-    border: 3px solid #e91e63;
-    background: #fff;
-  }
-  .cp_timeline04 .timeline_item .time_date .flag {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 0;
-    margin-top: -60px;
-    color: #880e4f;
-  }
-  .cp_timeline04 .timeline_item .desc {
-    font-size: 0.8em;
-    line-height: 20px;
-    margin-top: 10px;
-    padding-left: 20px;
-    border-left: 1px solid #880e4f;
-  }
-
-  .cp_timeline04:before {
-    left: 15px;
-  }
-  .cp_timeline04 .timeline_item .time_date .time:before {
-    left: -32px;
-  }
-  .cp_timeline04 .timeline_item {
-    margin: 0px 0px 0px 40px;
-  }
-  .cp_timeline04 .timeline_item .desc {
-    padding-left: 0px;
-    border-top: 1px solid #880e4f;
-    border-left: none;
-  }
-
-  .my-link a{
-    color: rgb(37, 128, 233);
   }
 
 }

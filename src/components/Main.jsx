@@ -24,6 +24,16 @@ import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Paper,
+} from "@mui/material";
+
 function Main() {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -35,6 +45,9 @@ function Main() {
     triggerOnce: true,
   });
   const [ref4, inView4] = useInView({
+    triggerOnce: true,
+  });
+  const [ref5, inView5] = useInView({
     triggerOnce: true,
   });
   const fadeInVariants = {
@@ -74,42 +87,42 @@ function Main() {
                   <div className="works-img">
                     <img src={SampleImg} />
                   </div>
-                  <p>このアプリはサンプルです。このアプリはサンプルです。</p>
+                  <p>Coming Soon</p>
                 </div>
                 <div className="works-app">
                   <p>SNSアプリ</p>
                   <div className="works-img">
                     <img src={SampleImg} alt="works-image" />
                   </div>
-                  <p>このアプリはサンプルです。このアプリはサンプルです。</p>
+                  <p>Coming Soon</p>
                 </div>
                 <div className="works-app">
                   <p>Webサイト</p>
                   <div className="works-img">
                     <img src={SampleImg} alt="works-image" />
                   </div>
-                  <p>このアプリはサンプルです。このアプリはサンプルです。</p>
+                  <p>Coming Soon</p>
                 </div>
                 <div className="works-app">
                   <p>チャットアプリ</p>
                   <div className="works-img">
                     <img src={SampleImg} alt="works-image" />
                   </div>
-                  <p>このアプリはサンプルです。このアプリはサンプルです。</p>
+                  <p>Coming Soon</p>
                 </div>
                 <div className="works-app">
                   <p>Todoアプリ</p>
                   <div className="works-img">
                     <img src={SampleImg} alt="works-image" />
                   </div>
-                  <p>このアプリはサンプルです。このアプリはサンプルです。</p>
+                  <p>Coming Soon</p>
                 </div>
                 <div className="works-app">
                   <p>サンプルアプリ</p>
                   <div className="works-img">
                     <img src={SampleImg} alt="works-image" />
                   </div>
-                  <p>このアプリはサンプルです。このアプリはサンプルです。</p>
+                  <p>Coming Soon</p>
                 </div>
               </div>
             </motion.div>
@@ -322,29 +335,36 @@ function Main() {
           </div>
         </section>
         <section>
-          <div className="about-me" id="about" ref={ref4}>
+          <div className="about-me" id="about" ref={ref5}>
             <motion.div
               initial="hidden"
-              animate={inView4 ? "visible" : "hidden"}
+              animate={inView5 ? "visible" : "hidden"}
               variants={fadeInVariants}
               transition={{ duration: 2.0 }}
             >
               <h2>contact</h2>
-              <div className="link" id="link">
-                <div className="my-link">
-                  <p>
-                    Zenn：
-                    <a href="https://zenn.dev/shin_re">
-                      https://zenn.dev/shin_re
-                    </a>
-                  </p>
-                  <p>
-                    GitHub：
-                    <a href="https://github.com/shin-tc-10">
-                      https://github.com/shin-tc-10
-                    </a>
-                  </p>
-                </div>
+              <div className="link-table" id="link">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Zenn</td>
+                      <td>
+                        <Link to="/https://zenn.dev/shin_re">
+                          https://zenn.dev/shin_re
+                        </Link>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>GitHub</td>
+                      <td>
+                        <Link to="/https://github.com/shin-tc-10">
+                          https://github.com/shin-tc-10
+                        </Link>
+                      </td>
+                    </tr>
+                    {/* 他のポートフォリオリンクを追加 */}
+                  </tbody>
+                </table>
               </div>
             </motion.div>
           </div>

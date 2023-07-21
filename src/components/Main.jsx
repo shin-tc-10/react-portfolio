@@ -123,7 +123,7 @@ function Main() {
               variants={fadeInVariants}
               transition={{ duration: 2.0 }}
             >
-              <h2>Skills</h2>
+              <h2>My Skills</h2>
               <div className="skills-box">
                 <div className="skill">
                   <p>HTML</p>

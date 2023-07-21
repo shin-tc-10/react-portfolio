@@ -49,7 +49,7 @@ function Main() {
     <div>
       <main>
         <div className="top">
-          <h1 className="custom-font">Shin's Portfolio Site</h1>
+          <h1>Shin's Portfolio Site</h1>
         </div>
         <div className="scroll-arrow">
           <Link to="works" spy={true} smooth={true} offset={50} duration={500}>
@@ -338,17 +338,25 @@ function Main() {
                     <tr>
                       <td>Zenn</td>
                       <td>
-                        <Link to="/https://zenn.dev/shin_re">
+                        <a
+                          href="https://zenn.dev/shin_re"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           https://zenn.dev/shin_re
-                        </Link>
+                        </a>
                       </td>
                     </tr>
                     <tr>
                       <td>GitHub</td>
                       <td>
-                        <Link to="/https://github.com/shin-tc-10">
+                        <a
+                          href="https://github.com/shin-tc-10"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           https://github.com/shin-tc-10
-                        </Link>
+                        </a>
                       </td>
                     </tr>
                     {/* 他のポートフォリオリンクを追加 */}

@@ -7,10 +7,6 @@
   font-weight: bold;
 }
 
-.custom-font {
-  font-family: 'Vollkorn', serif;
-}
-
 body::before {
   content: "";
   display: block;

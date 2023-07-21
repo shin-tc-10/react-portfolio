@@ -212,17 +212,17 @@ main {
 .link-table {
   margin: 2rem auto;
   width: 80%;
-  max-width: 600px;
+  /* max-width: 600px; */
 }
 
 .link-table table {
-  width: 100%;
+  /* width: 100%; */
   border-collapse: collapse;
 }
 
 .link-table th,
 .link-table td {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ccc;

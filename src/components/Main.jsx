@@ -287,7 +287,7 @@ function Main() {
               <div className="cp_timeline04">
                 <div className="timeline_item">
                   <div className="time_date">
-                    <p className="time">1992年</p>
+                    <p className="time">1992</p>
                     <p className="flag">大阪で生まれる。</p>
                   </div>
                   <div className="desc">
@@ -296,10 +296,9 @@ function Main() {
                     </p>
                   </div>
                 </div>
-
                 <div className="timeline_item">
                   <div className="time_date">
-                    <p className="time">2012年</p>
+                    <p className="time">2012</p>
                     <p className="flag">配送会社に就職</p>
                   </div>
                   <div className="desc">
@@ -310,7 +309,7 @@ function Main() {
                 </div>
                 <div className="timeline_item">
                   <div className="time_date">
-                    <p className="time">2012年</p>
+                    <p className="time">2012</p>
                     <p className="flag">販売員に転職</p>
                   </div>
                   <div className="desc">
@@ -321,7 +320,7 @@ function Main() {
                 </div>
                 <div className="timeline_item">
                   <div className="time_date">
-                    <p className="time">2022年</p>
+                    <p className="time">2022</p>
                     <p className="flag">未経験からITエンジニアに転職</p>
                   </div>
                   <div className="desc">

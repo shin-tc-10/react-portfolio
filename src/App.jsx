@@ -7,6 +7,7 @@ import React, { useState, useEffect } from "react";
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
 
   const fetchData = () => {
     // ここに非同期処理を実装する（APIからデータを取得するなど）
@@ -25,6 +26,20 @@ function App() {
     });
   }, []);
 
+  const handleMouseMove = (event) => {
+    setTimeout(() => {
+      setCursorPosition({ x: event.clientX, y: event.clientY });
+    }, 200);
+  };
+
+  useEffect(() => {
+    window.addEventListener("mousemove", handleMouseMove);
+
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
+
   if (loading) {
     return (
       <div className="overlay">
@@ -35,6 +50,10 @@ function App() {
 
   return (
     <div className="App">
+      <div
+        className="mouse-stalker"
+        style={{ left: cursorPosition.x, top: cursorPosition.y }}
+      ></div>
       <Header />
       <Main />
       <Footer />

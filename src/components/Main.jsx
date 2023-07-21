@@ -49,7 +49,7 @@ function Main() {
     <div>
       <main>
         <div className="top">
-          <h1>Shin's Portfolio Site</h1>
+          <h1 className="glowing-text">Shin's Portfolio Site</h1>
         </div>
         <div className="scroll-arrow">
           <Link to="works" spy={true} smooth={true} offset={50} duration={500}>
@@ -331,7 +331,7 @@ function Main() {
               variants={fadeInVariants}
               transition={{ duration: 2.0 }}
             >
-              <h2>contact</h2>
+              <h2>Contact</h2>
               <div className="link-table" id="link">
                 <table>
                   <tbody>
@@ -359,7 +359,6 @@ function Main() {
                         </a>
                       </td>
                     </tr>
-                    {/* 他のポートフォリオリンクを追加 */}
                   </tbody>
                 </table>
               </div>

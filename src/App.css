@@ -199,16 +199,9 @@ main {
 
 
 /** Blog/GitHub*/
-
 /** リンク集テーブル */
-.link-table {
-  /* margin: auto; */
-  width: 80%;
-  /* max-width: 600px; */
-}
-
 .link-table table {
-  width: 100%;
+  width: 90%;
   border-collapse: collapse;
 }
 
@@ -217,7 +210,7 @@ main {
   font-size: 1.0rem;
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #ccc;
+  border: 1px solid #ccc;
 }
 
 .link-table a {
@@ -227,6 +220,25 @@ main {
 
 .link-table a:hover {
   color: #0056b3;
+}
+
+/* マウスストーカー */
+.mouse-stalker {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: #e9dede6e; /* カーソルの色 */
+  border-radius: 50%;
+  pointer-events: none; /* カーソルが要素に対してマウスイベントを発生させないようにする */
+  z-index: 9999; /* カーソルを最前面に表示 */
+  transition: transform 0.9s ; /* カーソルのアニメーション */
+  cursor: none;
+}
+
+/* h1テキスト点滅 */
+.glowing-text {
+  font-size: 2.2rem;
+  text-shadow: 0 0 10px rgb(95, 102, 150), 0 0 20px rgb(57, 91, 146), 0 0 30px rgb(150, 179, 226), 0 0 40px rgba(63, 101, 177, 0.401); /* テキストに光の影を追加 */
 }
 
   /** フッター */

@@ -7,6 +7,10 @@
   font-weight: bold;
 }
 
+.custom-font {
+  font-family: 'Vollkorn', serif;
+}
+
 body::before {
   content: "";
   display: block;
@@ -199,24 +203,16 @@ main {
 
 
 /** Blog/GitHub*/
-.about-me a{
-  color: rgb(37, 128, 233);
-}
-
-.about-me-link-box {
-  height: 200px;
-}
-
 
 /** リンク集テーブル */
 .link-table {
-  margin: 2rem auto;
+  /* margin: auto; */
   width: 80%;
   /* max-width: 600px; */
 }
 
 .link-table table {
-  /* width: 100%; */
+  width: 100%;
   border-collapse: collapse;
 }
 

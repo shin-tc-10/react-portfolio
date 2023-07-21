@@ -24,16 +24,6 @@ import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Paper,
-} from "@mui/material";
-
 function Main() {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -59,7 +49,7 @@ function Main() {
     <div>
       <main>
         <div className="top">
-          <h1>Shin's Portfolio Site</h1>
+          <h1 className="custom-font">Shin's Portfolio Site</h1>
         </div>
         <div className="scroll-arrow">
           <Link to="works" spy={true} smooth={true} offset={50} duration={500}>

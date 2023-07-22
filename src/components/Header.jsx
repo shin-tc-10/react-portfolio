@@ -38,7 +38,7 @@ function Header() {
             offset={50}
             duration={500}
           >
-            contact
+            Contact
           </Link>
         </nav>
       </>

@@ -8,7 +8,7 @@ import Skills from "./Skills";
 import Qualifications from "./Qualifications";
 import Contact from "./Contact";
 
-function Main() {
+const Main = () => {
   const [isFadeIn, setIsFadeIn] = useState(false);
 
   useEffect(() => {
@@ -55,6 +55,6 @@ function Main() {
       </main>
     </div>
   );
-}
+};
 
 export default Main;

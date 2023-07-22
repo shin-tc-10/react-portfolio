@@ -43,7 +43,6 @@ section {
   margin-bottom: 200px;
 }
 
-
 /* ヘッダー */
 .header {
   display: flex;
@@ -57,11 +56,10 @@ section {
   width: 100%;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.364); /* 半透明の黒 */
-
 }
 
 nav {
-  line-height: 50px;
+  line-height: 35px;
   margin: auto;
   width: 70%;
 }
@@ -259,23 +257,23 @@ main {
   font-family: 'Cinzel', serif;
 }
 
-  /** フッター */
-  footer {
-    height: 100px; 
-    background-color: rgba(0, 0, 0, 0.452); /* 半透明の黒 */
-    line-height: 100px;
-  }
+/** フッター */
+footer {
+  height: 100px; 
+  background-color: rgba(0, 0, 0, 0.452); /* 半透明の黒 */
+  line-height: 100px;
+}
 
-  footer img {
-    height: 50px;
-    width: 50px;
-  }
+footer img {
+  height: 50px;
+  width: 50px;
+}
 
-  .footer-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /** スマートフォン ***********/
 /**************************/
@@ -501,7 +499,7 @@ main {
   }
 
   .skill {
-    width: 16%;
+    width: 15%;
     height: 200px;
     box-shadow: 0 0 5px gray;
     margin: 20px;

@@ -198,6 +198,7 @@ main {
 .link-table table {
   width: 90%;
   border-collapse: collapse;
+  margin: auto;
 }
 
 .link-table th,

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import HtmlImg from "../images/html.svg";
 import CssImg from "../images/css.svg";
 import JavaScriptImg from "../images/javascript.svg";
@@ -25,6 +25,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Main() {
+  const [isFadeIn, setIsFadeIn] = useState(false);
+
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
@@ -45,10 +47,19 @@ function Main() {
     visible: { opacity: 1 },
   };
 
+  useEffect(() => {
+    // 3秒後にフェードインさせる
+    const timer = setTimeout(() => {
+      setIsFadeIn(true);
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div>
       <main>
-        <div className="top">
+        <div className={`fade-in-text ${isFadeIn ? "fade-in" : ""}`}>
           <h1 className="glowing-text">Shin's Portfolio Site</h1>
         </div>
         <div className="scroll-arrow">

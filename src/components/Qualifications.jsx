@@ -5,7 +5,7 @@ import JavaGoldImg from "../images/GLDSE11JPN.jpg";
 import JavaSilverImg from "../images/SILVSE11JPN.jpg";
 
 const Qualifications = () => {
-  const [ref3, inView3] = useInView({
+  const [ref, inView] = useInView({
     triggerOnce: true,
   });
 
@@ -15,10 +15,10 @@ const Qualifications = () => {
   };
 
   return (
-    <div className="qualifications" id="qualifications" ref={ref3}>
+    <div className="qualifications" id="qualifications" ref={ref}>
       <motion.div
         initial="hidden"
-        animate={inView3 ? "visible" : "hidden"}
+        animate={inView ? "visible" : "hidden"}
         variants={fadeInVariants}
         transition={{ duration: 2.0 }}
       >

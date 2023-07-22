@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.efb5a558.css",
-    "main.js": "/react-portfolio/static/js/main.6da8b523.js",
+    "main.css": "/react-portfolio/static/css/main.406a758d.css",
+    "main.js": "/react-portfolio/static/js/main.16aa83e0.js",
     "static/media/portfolio-website.png": "/react-portfolio/static/media/portfolio-website.fda41b327f68d909077f.png",
     "static/media/shutterstock_1662908713.jpg": "/react-portfolio/static/media/shutterstock_1662908713.f4a74b5571d75d45903e.jpg",
     "static/media/udemy-react-3 types-of-apps.jpeg": "/react-portfolio/static/media/udemy-react-3 types-of-apps.a331e996834d7b72c6ff.jpeg",
@@ -28,11 +28,11 @@
     "index.html": "/react-portfolio/index.html",
     "static/media/css.svg": "/react-portfolio/static/media/css.db7dfd1247623e1e9223d8ef28a37432.svg",
     "static/media/html.svg": "/react-portfolio/static/media/html.a026abbb678246d70ee9b70e4aee972c.svg",
-    "main.efb5a558.css.map": "/react-portfolio/static/css/main.efb5a558.css.map",
-    "main.6da8b523.js.map": "/react-portfolio/static/js/main.6da8b523.js.map"
+    "main.406a758d.css.map": "/react-portfolio/static/css/main.406a758d.css.map",
+    "main.16aa83e0.js.map": "/react-portfolio/static/js/main.16aa83e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.efb5a558.css",
-    "static/js/main.6da8b523.js"
+    "static/css/main.406a758d.css",
+    "static/js/main.16aa83e0.js"
   ]
 }

@@ -29,42 +29,42 @@ function Works() {
             <div className="works-img">
               <img src={SampleImg} />
             </div>
-            <p>Coming Soon</p>
+            <p>使用技術：React</p>
           </div>
           <div className="works-app">
             <p>SNSアプリ</p>
             <div className="works-img">
               <img src={SampleImg} alt="works-image" />
             </div>
-            <p>Coming Soon</p>
+            <p>使用技術：React</p>
           </div>
           <div className="works-app">
             <p>Webサイト</p>
             <div className="works-img">
               <img src={PortfolioWebsiteImg} alt="works-image" />
             </div>
-            <p>Coming Soon</p>
+            <p>使用技術：React</p>
           </div>
           <div className="works-app">
             <p>チャットアプリ</p>
             <div className="works-img">
               <img src={SampleImg} alt="works-image" />
             </div>
-            <p>Coming Soon</p>
+            <p>使用技術：React</p>
           </div>
           <div className="works-app">
             <p>Todoアプリ</p>
             <div className="works-img">
               <img src={SampleImg} alt="works-image" />
             </div>
-            <p>Coming Soon</p>
+            <p>使用技術：React</p>
           </div>
           <div className="works-app">
             <p>サンプルアプリ</p>
             <div className="works-img">
               <img src={SampleImg} alt="works-image" />
             </div>
-            <p>Coming Soon</p>
+            <p>使用技術：React</p>
           </div>
         </div>
       </motion.div>

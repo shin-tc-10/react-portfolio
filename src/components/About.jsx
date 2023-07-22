@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 function About() {
-  const [ref4, inView4] = useInView({
+  const [ref, inView] = useInView({
     triggerOnce: true,
   });
 
@@ -13,10 +13,10 @@ function About() {
   };
 
   return (
-    <div className="about-me" id="about" ref={ref4}>
+    <div className="about-me" id="about" ref={ref}>
       <motion.div
         initial="hidden"
-        animate={inView4 ? "visible" : "hidden"}
+        animate={inView ? "visible" : "hidden"}
         variants={fadeInVariants}
         transition={{ duration: 2.0 }}
       >

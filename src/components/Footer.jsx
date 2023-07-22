@@ -1,16 +1,13 @@
-import React from 'react'
-import ReactImg from '../images/react.svg';
-
+import React from "react";
 
 function Footer() {
   return (
     <div>
-        <footer>
-          <p>©︎2023 Shin's Portfolio Site</p>
-          {/* <p className="footer-text"><img src={ReactImg} />This site is made with React.</p> */}
-        </footer>
+      <footer>
+        <p>©︎2023 Shin's Portfolio Site</p>
+      </footer>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

@@ -18,7 +18,7 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
 const Skills = () => {
-  const [ref2, inView2] = useInView({
+  const [ref, inView] = useInView({
     triggerOnce: true,
   });
 
@@ -28,10 +28,10 @@ const Skills = () => {
   };
 
   return (
-    <div className="skills" id="skills" ref={ref2}>
+    <div className="skills" id="skills" ref={ref}>
       <motion.div
         initial="hidden"
-        animate={inView2 ? "visible" : "hidden"}
+        animate={inView ? "visible" : "hidden"}
         variants={fadeInVariants}
         transition={{ duration: 2.0 }}
       >
@@ -42,21 +42,21 @@ const Skills = () => {
             <div className="skill-img">
               <img src={HtmlImg} />
             </div>
-            <p>実務経験2年</p>
+            <p>実務経験2.5年</p>
           </div>
           <div className="skill">
             <p>CSS</p>
             <div className="skill-img">
               <img src={CssImg} alt="works-image" />
             </div>
-            <p>実務経験2年</p>
+            <p>実務経験2.5年</p>
           </div>
           <div className="skill">
             <p>JavaScript</p>
             <div className="skill-img">
               <img src={JavaScriptImg} alt="works-image" />
             </div>
-            <p>実務経験2年</p>
+            <p>実務経験2.5年</p>
           </div>
           <div className="skill">
             <p>TypeScript</p>
@@ -91,7 +91,7 @@ const Skills = () => {
             <div className="skill-img">
               <img src={JavaImg} alt="works-image" />
             </div>
-            <p>実務経験2年</p>
+            <p>実務経験2.5年</p>
           </div>
           <div className="skill">
             <p>SpringBoot</p>
@@ -140,7 +140,7 @@ const Skills = () => {
             <div className="skill-img">
               <img src={FireBaseImg} alt="works-image" />
             </div>
-            <p>実務経験2年</p>
+            <p>独学2ヶ月</p>
           </div>
         </div>
       </motion.div>

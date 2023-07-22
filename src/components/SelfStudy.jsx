@@ -18,7 +18,7 @@ const SelfStudy = () => {
   };
 
   return (
-    <div className="self-study" id="self-study" ref={ref}>
+    <div className="self-study" id="selfStudy" ref={ref}>
       <motion.div
         initial="hidden"
         animate={inView ? "visible" : "hidden"}

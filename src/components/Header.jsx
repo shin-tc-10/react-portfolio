@@ -25,6 +25,15 @@ function Header() {
           <Link to="works" spy={true} smooth={true} offset={50} duration={500}>
             Works
           </Link>
+          <Link
+            to="selfStudy"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            SelfStudy
+          </Link>
           <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>
             Skills
           </Link>

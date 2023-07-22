@@ -228,6 +228,7 @@ main {
   z-index: 9999; /* カーソルを最前面に表示 */
   transition: transform 0.9s ; /* カーソルのアニメーション */
   cursor: none;
+  /* display: none; */
 }
 
 /* 画像にカーソルを当てるとズームインする時の時間 */
@@ -279,6 +280,11 @@ main {
 /** スマートフォン ***********/
 /**************************/
 @media screen and (max-width: 768px) {
+  /* マウスストーカーオフ */
+.mouse-stalker {
+  display: none;
+}
+
   nav {
     display: flex;
     align-items: center;

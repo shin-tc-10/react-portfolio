@@ -30,9 +30,13 @@ body::before {
 
 }
 
+.fade-in-text {
+  height: 550px;
+}
+
 .fade-in-text h1 {
   text-align: center;
-  line-height: 650px;
+  line-height: 750px;
 }
 
 .scroll-arrow {

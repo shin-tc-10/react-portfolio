@@ -7,6 +7,7 @@ import Works from "./Works";
 import Skills from "./Skills";
 import Qualifications from "./Qualifications";
 import Contact from "./Contact";
+import SelfStudy from "./SelfStudy";
 
 const Main = () => {
   const [isFadeIn, setIsFadeIn] = useState(false);
@@ -39,6 +40,9 @@ const Main = () => {
         </div>
         <section>
           <Works />
+        </section>
+        <section>
+          <SelfStudy />
         </section>
         <section>
           <Skills />

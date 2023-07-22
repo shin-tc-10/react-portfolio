@@ -283,6 +283,11 @@ footer img {
   display: none;
 }
 
+/* h1テキスト点滅 */
+.glowing-text {
+  font-size: 2.0rem;
+}
+
   nav {
     display: flex;
     align-items: center;
@@ -336,7 +341,6 @@ footer img {
   }
 
   h2 {
-    /* font-size: 40px; */
     padding-bottom: 30px;
   }
 
@@ -370,7 +374,6 @@ footer img {
 
   /** works */
   .works-app {
-    /* box-shadow: 0 0 5px gray; */
     padding: 10px;
     margin: 0 auto;
     margin-bottom: 20px;

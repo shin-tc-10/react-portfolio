@@ -4,6 +4,8 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import LoadingIndicator from "./components/LoadingIndicator";
 import React, { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BlogApp from "./components/BlogApp";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -49,15 +51,20 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <div
-        className="mouse-stalker"
-        style={{ left: cursorPosition.x, top: cursorPosition.y }}
-      ></div>
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <div className="App">
+          <div
+            className="mouse-stalker"
+            style={{ left: cursorPosition.x, top: cursorPosition.y }}
+          ></div>
+          <Header />
+          <Main />
+          <Footer />
+        </div>
+        <Route path="/BlogApp" element={<BlogApp />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

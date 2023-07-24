@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import PortfolioWebsiteImg from "../images/portfolio-website.png";
 import SampleImg from "../images/sample.png";
+import { Link } from "react-router-dom";
 
 function Works() {
   const [ref, inView] = useInView({
@@ -42,7 +43,9 @@ function Works() {
           >
             <p>ブログアプリ</p>
             <div className="works-img">
-              <img src={SampleImg} />
+              <Link to="/BlogApp">
+                <img src={SampleImg} />
+              </Link>
             </div>
             <p>使用技術：React</p>
           </motion.div>

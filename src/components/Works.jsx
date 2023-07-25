@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import PortfolioWebsiteImg from "../images/portfolio-website.png";
 import SampleImg from "../images/sample.png";
 import { Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BlogApp from "./BlogApp";
 
 function Works() {
   const [ref, inView] = useInView({
@@ -43,9 +45,9 @@ function Works() {
           >
             <p>ブログアプリ</p>
             <div className="works-img">
-              <Link to="/BlogApp">
+              <a href="/BlogApp">
                 <img src={SampleImg} />
-              </Link>
+              </a>
             </div>
             <p>使用技術：React</p>
           </motion.div>

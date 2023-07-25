@@ -52,18 +52,18 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Routes>
-        <div className="App">
-          <div
-            className="mouse-stalker"
-            style={{ left: cursorPosition.x, top: cursorPosition.y }}
-          ></div>
-          <Header />
-          <Main />
-          <Footer />
-        </div>
-        <Route path="/BlogApp" element={<BlogApp />} />
-      </Routes>
+      <div className="App">
+        <div
+          className="mouse-stalker"
+          style={{ left: cursorPosition.x, top: cursorPosition.y }}
+        ></div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/BlogApp" element={<BlogApp />} />
+        </Routes>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }

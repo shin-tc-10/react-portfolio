@@ -20,7 +20,7 @@ const Contact = () => {
         variants={fadeInVariants}
         transition={{ duration: 2.0 }}
       >
-        <h2>Contact</h2>
+        <h2>Link</h2>
         <div className="link-table" id="link">
           <table>
             <tbody>

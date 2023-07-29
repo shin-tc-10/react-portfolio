@@ -27,7 +27,7 @@ const Main = () => {
         <div className={`fade-in-text ${isFadeIn ? "fade-in" : ""}`}>
           <h1 className="glowing-text">Shin's Portfolio Site</h1>
         </div>
-        <div className="scroll-arrow">
+        {/* <div className="scroll-arrow">
           <Link to="works" spy={true} smooth={true} offset={50} duration={500}>
             <br />
             <FontAwesomeIcon
@@ -37,7 +37,7 @@ const Main = () => {
               style={{ color: "#edeff3" }}
             />
           </Link>
-        </div>
+        </div> */}
         <section>
           <Works />
         </section>

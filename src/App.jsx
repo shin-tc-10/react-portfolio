@@ -59,6 +59,7 @@ function App() {
         ></div>
         <Header />
         <Routes>
+          <Route path="/" element={<Main />} />
           <Route path="/react-portfolio" element={<Main />} />
           <Route path="/react-portfolio/BlogApp" element={<BlogApp />} />
         </Routes>

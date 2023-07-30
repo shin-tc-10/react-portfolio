@@ -246,10 +246,10 @@ main {
 
 /* 画像にカーソルを当てるとズームイン */
 .works-app:hover .works-img {
-  transform: scale(1.2); /* マウスオーバー時に画像を1.2倍に拡大（ズームイン） */
+  transform: scale(1.1); /* マウスオーバー時に画像を1.1倍に拡大（ズームイン） */
 }
 .self-study-evidence:hover .self-study-evidence-img {
-  transform: scale(1.2); /* マウスオーバー時に画像を1.2倍に拡大（ズームイン） */
+  transform: scale(1.1); /* マウスオーバー時に画像を1.1倍に拡大（ズームイン） */
 }
 
 .fade-in-text {

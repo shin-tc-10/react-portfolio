@@ -4,7 +4,7 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import LoadingIndicator from "./components/LoadingIndicator";
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import BlogApp from "./components/BlogApp";
 
 function App() {
@@ -59,7 +59,7 @@ function App() {
         ></div>
         <Header />
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={<Navigate to="/react-portfolio" />} />
           <Route path="/react-portfolio" element={<Main />} />
           <Route path="/react-portfolio/BlogApp" element={<BlogApp />} />
         </Routes>

@@ -41,7 +41,7 @@ function Works() {
             initial="hidden"
             animate={inView ? "visible" : "hidden"}
             variants={fadeInVariants}
-            transition={{ duration: 3.0 }}
+            transition={{ duration: 2.5 }}
           >
             <p>ブログアプリ</p>
             <div className="works-img">
@@ -57,7 +57,7 @@ function Works() {
             initial="hidden"
             animate={inView2 ? "visible" : "hidden"}
             variants={fadeInVariants}
-            transition={{ duration: 3.0 }}
+            transition={{ duration: 2.5 }}
           >
             <p>SNSアプリ</p>
             <div className="works-img">
@@ -71,7 +71,7 @@ function Works() {
             initial="hidden"
             animate={inView3 ? "visible" : "hidden"}
             variants={fadeInVariants}
-            transition={{ duration: 3.0 }}
+            transition={{ duration: 2.5 }}
           >
             <p>Webサイト</p>
             <div className="works-img">
@@ -85,7 +85,7 @@ function Works() {
             initial="hidden"
             animate={inView4 ? "visible" : "hidden"}
             variants={fadeInVariants}
-            transition={{ duration: 3.0 }}
+            transition={{ duration: 2.5 }}
           >
             <p>チャットアプリ</p>
             <div className="works-img">
@@ -99,7 +99,7 @@ function Works() {
             initial="hidden"
             animate={inView5 ? "visible" : "hidden"}
             variants={fadeInVariants}
-            transition={{ duration: 3.0 }}
+            transition={{ duration: 2.5 }}
           >
             <p>Todoアプリ</p>
             <div className="works-img">
@@ -113,7 +113,7 @@ function Works() {
             initial="hidden"
             animate={inView6 ? "visible" : "hidden"}
             variants={fadeInVariants}
-            transition={{ duration: 3.0 }}
+            transition={{ duration: 2.5 }}
           >
             <p>サンプルアプリ</p>
             <div className="works-img">

@@ -45,7 +45,7 @@ function Works() {
           >
             <p>ブログアプリ</p>
             <div className="works-img">
-              <a href="/BlogApp">
+              <a href="/react-port-folio/BlogApp">
                 <img src={SampleImg} />
               </a>
             </div>

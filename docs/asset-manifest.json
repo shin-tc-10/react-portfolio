@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.5d8803aa.css",
-    "main.js": "/react-portfolio/static/js/main.99bdb6d9.js",
+    "main.js": "/react-portfolio/static/js/main.9fc3a480.js",
     "static/media/portfolio-website.png": "/react-portfolio/static/media/portfolio-website.fda41b327f68d909077f.png",
     "static/media/shutterstock_1662908713.jpg": "/react-portfolio/static/media/shutterstock_1662908713.f4a74b5571d75d45903e.jpg",
     "static/media/udemy-react-3 types-of-apps.jpeg": "/react-portfolio/static/media/udemy-react-3 types-of-apps.a331e996834d7b72c6ff.jpeg",
@@ -29,10 +29,10 @@
     "static/media/css.svg": "/react-portfolio/static/media/css.db7dfd1247623e1e9223d8ef28a37432.svg",
     "static/media/html.svg": "/react-portfolio/static/media/html.a026abbb678246d70ee9b70e4aee972c.svg",
     "main.5d8803aa.css.map": "/react-portfolio/static/css/main.5d8803aa.css.map",
-    "main.99bdb6d9.js.map": "/react-portfolio/static/js/main.99bdb6d9.js.map"
+    "main.9fc3a480.js.map": "/react-portfolio/static/js/main.9fc3a480.js.map"
   },
   "entrypoints": [
     "static/css/main.5d8803aa.css",
-    "static/js/main.99bdb6d9.js"
+    "static/js/main.9fc3a480.js"
   ]
 }

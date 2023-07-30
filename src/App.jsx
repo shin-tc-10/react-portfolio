@@ -60,7 +60,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/react-portfolio" element={<Main />} />
-          <Route path="/BlogApp" element={<BlogApp />} />
+          <Route path="/react-portfolio/BlogApp" element={<BlogApp />} />
         </Routes>
         <Footer />
       </div>

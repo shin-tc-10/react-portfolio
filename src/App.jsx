@@ -6,6 +6,7 @@ import LoadingIndicator from "./components/LoadingIndicator";
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BlogApp from "./components/BlogApp";
+import NotFound from "./NotFound";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -61,6 +62,7 @@ function App() {
         <Routes>
           <Route path="/react-portfolio" element={<Main />} />
           <Route path="/BlogApp" element={<BlogApp />} />
+          <Route component={NotFound} />
         </Routes>
         <Footer />
       </div>

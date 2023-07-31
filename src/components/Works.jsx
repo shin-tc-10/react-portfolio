@@ -3,9 +3,6 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import PortfolioWebsiteImg from "../images/portfolio-website.png";
 import SampleImg from "../images/sample.png";
-import { Link } from "react-router-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import BlogApp from "./BlogApp";
 
 function Works() {
   const [ref, inView] = useInView({

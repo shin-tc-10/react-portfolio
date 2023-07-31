@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const Contact = () => {
+const MyLink = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
@@ -56,4 +56,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default MyLink;

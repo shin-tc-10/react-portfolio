@@ -72,7 +72,9 @@ function Works() {
           >
             <p>Webサイト</p>
             <div className="works-img">
-              <img src={PortfolioWebsiteImg} alt="works-image" />
+              <a href="/react-portfolio/WebSite">
+                <img src={PortfolioWebsiteImg} alt="works-image" />
+              </a>
             </div>
             <p>使用技術：React</p>
           </motion.div>

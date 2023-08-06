@@ -2,6 +2,7 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import PortfolioWebsiteImg from "../images/portfolio-website.png";
+import TodoApp from "../images/todo-app.png";
 import SampleImg from "../images/sample.png";
 
 function Works() {
@@ -40,13 +41,13 @@ function Works() {
             variants={fadeInVariants}
             transition={{ duration: 2.5 }}
           >
-            <p>ブログアプリ</p>
+            <p>React Todo App</p>
             <div className="works-img">
-              <a href="/react-portfolio/BlogApp">
-                <img src={SampleImg} />
-              </a>
+              <img src={TodoApp} alt="works-image" />
             </div>
-            <p>使用技術：React</p>
+            <a href="https://react-todo-app-delta-silk.vercel.app/">
+              URL：https://react-todo-app-delta-silk.vercel.app/
+            </a>
           </motion.div>
         </div>
         <div className="works-app" ref={ref2}>
@@ -56,11 +57,13 @@ function Works() {
             variants={fadeInVariants}
             transition={{ duration: 2.5 }}
           >
-            <p>SNSアプリ</p>
+            <p>React Web Site</p>
             <div className="works-img">
-              <img src={SampleImg} alt="works-image" />
+              <a href="/react-portfolio/WebSite">
+                <img src={PortfolioWebsiteImg} alt="works-image" />
+              </a>
             </div>
-            <p>使用技術：React</p>
+            <p>URL：React</p>
           </motion.div>
         </div>
         <div className="works-app" ref={ref3}>
@@ -70,11 +73,9 @@ function Works() {
             variants={fadeInVariants}
             transition={{ duration: 2.5 }}
           >
-            <p>Webサイト</p>
+            <p>SNSアプリ</p>
             <div className="works-img">
-              <a href="/react-portfolio/WebSite">
-                <img src={PortfolioWebsiteImg} alt="works-image" />
-              </a>
+              <img src={SampleImg} alt="works-image" />
             </div>
             <p>使用技術：React</p>
           </motion.div>
@@ -100,9 +101,11 @@ function Works() {
             variants={fadeInVariants}
             transition={{ duration: 2.5 }}
           >
-            <p>Todoアプリ</p>
+            <p>ブログアプリ</p>
             <div className="works-img">
-              <img src={SampleImg} alt="works-image" />
+              <a href="/react-portfolio/BlogApp">
+                <img src={SampleImg} />
+              </a>
             </div>
             <p>使用技術：React</p>
           </motion.div>

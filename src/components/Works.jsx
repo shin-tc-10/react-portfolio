@@ -45,7 +45,11 @@ function Works() {
             <div className="works-img">
               <img src={TodoApp} alt="works-image" />
             </div>
-            <a href="https://react-todo-app-delta-silk.vercel.app/">
+            <a
+              href="https://react-todo-app-delta-silk.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               URL：https://react-todo-app-delta-silk.vercel.app/
             </a>
           </motion.div>
@@ -63,7 +67,13 @@ function Works() {
                 <img src={PortfolioWebsiteImg} alt="works-image" />
               </a>
             </div>
-            <p>URL：React</p>
+            <a
+              href="https://shin-tc-10.github.io/react-portfolio/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              URL：https://shin-tc-10.github.io/react-portfolio/
+            </a>
           </motion.div>
         </div>
         <div className="works-app" ref={ref3}>

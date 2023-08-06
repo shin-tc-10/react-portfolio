@@ -6,6 +6,7 @@ import UdemyJavaSe8Img from "../images/udemy-java-se8.jpeg";
 import UdemyJavaSpringTodoImg from "../images/udemy-java-spring-todo.jpeg";
 import UdemyReact3TypesOfAppsImg from "../images/udemy-react-3 types-of-apps.jpeg";
 import UdemyReactTwitterCloneImg from "../images/udemy-react-twitter-clone.jpeg";
+import UdemyReactTrelloCloneImg from "../images/udemy-react-trello-clone.jpeg";
 
 const SelfStudy = () => {
   const [ref, inView] = useInView({
@@ -27,6 +28,13 @@ const SelfStudy = () => {
       >
         <h2>Self Study Evidence</h2>
         <div className="self-study-evidence-box">
+          <div className="self-study-evidence">
+            <p>React Trelloクローン</p>
+            <div className="self-study-evidence-img">
+              <img src={UdemyReactTrelloCloneImg} alt="self-study-evidence" />
+            </div>
+            <p>習得技術：React</p>
+          </div>
           <div className="self-study-evidence">
             <p>3種類のReactアプリ</p>
             <div className="self-study-evidence-img">

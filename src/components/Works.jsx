@@ -83,11 +83,11 @@ function Works() {
             variants={fadeInVariants}
             transition={{ duration: 2.5 }}
           >
-            <p>SNSアプリ</p>
+            <p>Next.js SNS App</p>
             <div className="works-img">
               <img src={SampleImg} alt="works-image" />
             </div>
-            <p>使用技術：React</p>
+            <p>URL：comming soon</p>
           </motion.div>
         </div>
         <div className="works-app" ref={ref4}>

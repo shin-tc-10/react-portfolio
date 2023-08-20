@@ -85,7 +85,9 @@ function Works() {
           >
             <p>Next.js SNS App</p>
             <div className="works-img">
-              <img src={SampleImg} alt="works-image" />
+              <a href="/react-portfolio/NextSnsApp">
+                <img src={SampleImg} alt="works-image" />
+              </a>
             </div>
             <p>URL：comming soon</p>
           </motion.div>

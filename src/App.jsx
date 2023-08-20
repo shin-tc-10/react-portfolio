@@ -7,6 +7,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import BlogApp from "./components/BlogApp";
 import WebSite from "./components/WebSite";
+import NextSnsApp from "./components/NextSnsApp";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -64,6 +65,7 @@ function App() {
           <Route path="/react-portfolio" element={<Main />} />
           <Route path="/react-portfolio/BlogApp" element={<BlogApp />} />
           <Route path="/react-portfolio/WebSite" element={<WebSite />} />
+          <Route path="/react-portfolio/NextSnsApp" element={<NextSnsApp />} />
         </Routes>
         <Footer />
       </div>

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import PortfolioWebsiteImg from "../images/portfolio-website.png";
 import TodoApp from "../images/todo-app.png";
 import SampleImg from "../images/sample.png";
+import NextSnsAppImg from "../images/next-sns-app-img.png";
 
 function Works() {
   const [ref, inView] = useInView({
@@ -63,9 +64,7 @@ function Works() {
           >
             <p>React Web Site</p>
             <div className="works-img">
-              <a href="/react-portfolio/WebSite">
-                <img src={PortfolioWebsiteImg} alt="works-image" />
-              </a>
+              <img src={PortfolioWebsiteImg} alt="works-image" />
             </div>
             <a
               href="https://shin-tc-10.github.io/react-portfolio/"
@@ -85,11 +84,9 @@ function Works() {
           >
             <p>Next.js SNS App</p>
             <div className="works-img">
-              <a href="/react-portfolio/NextSnsApp">
-                <img src={SampleImg} alt="works-image" />
-              </a>
+              <img src={NextSnsAppImg} alt="works-image" />
             </div>
-            <p>URL：comming soon</p>
+            <p>URL：https://next-sns-client-ten.vercel.app/</p>
           </motion.div>
         </div>
         <div className="works-app" ref={ref4}>
@@ -115,11 +112,9 @@ function Works() {
           >
             <p>ブログアプリ</p>
             <div className="works-img">
-              <a href="/react-portfolio/BlogApp">
-                <img src={SampleImg} />
-              </a>
+              <img src={SampleImg} />
             </div>
-            <p>使用技術：React</p>
+            <p>URL：Comming Soon!</p>
           </motion.div>
         </div>
         <div className="works-app" ref={ref6}>
@@ -133,7 +128,7 @@ function Works() {
             <div className="works-img">
               <img src={SampleImg} alt="works-image" />
             </div>
-            <p>使用技術：React</p>
+            <p>URL：Comming Soon!</p>
           </motion.div>
         </div>
       </div>

@@ -104,7 +104,7 @@ function Works() {
             <div className="works-img">
               <img src={SampleImg} alt="works-image" />
             </div>
-            <p>使用技術：React</p>
+            <p>URL：Comming Soon!</p>
           </motion.div>
         </div>
         <div className="works-app" ref={ref5}>

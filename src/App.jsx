@@ -61,8 +61,7 @@ function App() {
         ></div>
         <Header />
         <Routes>
-          <Route path="/" element={<Navigate to="/shin-react-portfolio" />} />
-          <Route path="/shin-react-portfolio" element={<Main />} />
+          <Route path="/" element={<Main />} />
           <Route path="/shin-react-portfolio/BlogApp" element={<BlogApp />} />
           <Route path="/shin-react-portfolio/WebSite" element={<WebSite />} />
           <Route path="/shin-react-portfolio/NextSnsApp" element={<NextSnsApp />} />

@@ -86,7 +86,11 @@ function Works() {
             <div className="works-img">
               <img src={NextSnsAppImg} alt="works-image" />
             </div>
-            <p>URL：https://next-sns-client-ten.vercel.app/</p>
+            <a href="https://next-sns-client-ten.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer">
+              URL：https://next-sns-client-ten.vercel.app/
+            </a>
           </motion.div>
         </div>
         <div className="works-app" ref={ref4}>

@@ -67,11 +67,11 @@ function Works() {
               <img src={PortfolioWebsiteImg} alt="works-image" />
             </div>
             <a
-              href="https://shin-tc-10.github.io/shin-react-portfolio/"
+              href="https://shin-react-portfolio.vercel.app/shin-react-portfolio"
               target="_blank"
               rel="noopener noreferrer"
             >
-              URL：https://shin-tc-10.github.io/shin-react-portfolio/
+              URL：https://shin-react-portfolio.vercel.app/
             </a>
           </motion.div>
         </div>

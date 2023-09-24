@@ -61,11 +61,11 @@ function App() {
         ></div>
         <Header />
         <Routes>
-          <Route path="/" element={<Navigate to="/react-portfolio" />} />
-          <Route path="/react-portfolio" element={<Main />} />
-          <Route path="/react-portfolio/BlogApp" element={<BlogApp />} />
-          <Route path="/react-portfolio/WebSite" element={<WebSite />} />
-          <Route path="/react-portfolio/NextSnsApp" element={<NextSnsApp />} />
+          <Route path="/" element={<Navigate to="/shin-react-portfolio" />} />
+          <Route path="/shin-react-portfolio" element={<Main />} />
+          <Route path="/shin-react-portfolio/BlogApp" element={<BlogApp />} />
+          <Route path="/shin-react-portfolio/WebSite" element={<WebSite />} />
+          <Route path="/shin-react-portfolio/NextSnsApp" element={<NextSnsApp />} />
         </Routes>
         <Footer />
       </div>

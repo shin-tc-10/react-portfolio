@@ -27,7 +27,7 @@ function Works() {
               <img src={TodoApp} alt="works-image" />
             </div>
             <a href="https://react-todo-app-delta-silk.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
-              <span>React Todo App</span>
+              <span>React.js Todo App</span>
             </a>
           </motion.div>
         </div>
@@ -36,8 +36,8 @@ function Works() {
             <div className="works-img">
               <img src={PortfolioWebsiteImg} alt="works-image" />
             </div>
-            <a href="https://shin-react-portfolio.vercel.app/shin-react-portfolio" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
-            <span>React Web Site</span>
+            <a href="/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+            <span>React.js Web Site</span>
             </a>
           </motion.div>
         </div>
@@ -57,7 +57,7 @@ function Works() {
               <img src={SampleImg} />
             </div>
             <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
-              <span>ブログアプリ</span>
+              <span>Next.js Blog App</span>
             </a>
           </motion.div>
         </div>

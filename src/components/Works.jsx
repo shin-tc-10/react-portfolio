@@ -7,24 +7,10 @@ import SampleImg from "../images/sample.png";
 import NextSnsAppImg from "../images/next-sns-app-img.png";
 
 function Works() {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-  });
-  const [ref2, inView2] = useInView({
-    triggerOnce: true,
-  });
-  const [ref3, inView3] = useInView({
-    triggerOnce: true,
-  });
-  const [ref4, inView4] = useInView({
-    triggerOnce: true,
-  });
-  const [ref5, inView5] = useInView({
-    triggerOnce: true,
-  });
-  const [ref6, inView6] = useInView({
-    triggerOnce: true,
-  });
+  const [ref, inView] = useInView({ triggerOnce: true, });
+  const [ref2, inView2] = useInView({ triggerOnce: true, });
+  const [ref3, inView3] = useInView({ triggerOnce: true, });
+  const [ref4, inView4] = useInView({ triggerOnce: true, });
 
   const fadeInVariants = {
     hidden: { opacity: 0 },
@@ -36,103 +22,43 @@ function Works() {
       <h2>Works</h2>
       <div className="works-app-box">
         <div className="works-app" ref={ref}>
-          <motion.div
-            initial="hidden"
-            animate={inView ? "visible" : "hidden"}
-            variants={fadeInVariants}
-            transition={{ duration: 2.5 }}
-          >
-            <p>React Todo App</p>
+          <motion.div initial="hidden" animate={inView ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }} >
             <div className="works-img">
               <img src={TodoApp} alt="works-image" />
             </div>
-            <a
-              href="https://react-todo-app-delta-silk.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              URL：https://react-todo-app-delta-silk.vercel.app/
+            <a href="https://react-todo-app-delta-silk.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+              <span>React Todo App</span>
             </a>
           </motion.div>
         </div>
         <div className="works-app" ref={ref2}>
-          <motion.div
-            initial="hidden"
-            animate={inView2 ? "visible" : "hidden"}
-            variants={fadeInVariants}
-            transition={{ duration: 2.5 }}
-          >
-            <p>React Web Site</p>
+          <motion.div initial="hidden" animate={inView2 ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }}>
             <div className="works-img">
               <img src={PortfolioWebsiteImg} alt="works-image" />
             </div>
-            <a
-              href="https://shin-react-portfolio.vercel.app/shin-react-portfolio"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              URL：https://shin-react-portfolio.vercel.app/
+            <a href="https://shin-react-portfolio.vercel.app/shin-react-portfolio" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+            <span>React Web Site</span>
             </a>
           </motion.div>
         </div>
         <div className="works-app" ref={ref3}>
-          <motion.div
-            initial="hidden"
-            animate={inView3 ? "visible" : "hidden"}
-            variants={fadeInVariants}
-            transition={{ duration: 2.5 }}
-          >
-            <p>Next.js SNS App</p>
+          <motion.div initial="hidden" animate={inView3 ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }}>
             <div className="works-img">
               <img src={NextSnsAppImg} alt="works-image" />
             </div>
-            <a href="https://next-sns-client-ten.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer">
-              URL：https://next-sns-client-ten.vercel.app/
+            <a href="https://next-sns-client-ten.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+              <span>Next.js SNS App</span>
             </a>
           </motion.div>
         </div>
         <div className="works-app" ref={ref4}>
-          <motion.div
-            initial="hidden"
-            animate={inView4 ? "visible" : "hidden"}
-            variants={fadeInVariants}
-            transition={{ duration: 2.5 }}
-          >
-            <p>チャットアプリ</p>
-            <div className="works-img">
-              <img src={SampleImg} alt="works-image" />
-            </div>
-            <p>URL：Comming Soon!</p>
-          </motion.div>
-        </div>
-        <div className="works-app" ref={ref5}>
-          <motion.div
-            initial="hidden"
-            animate={inView5 ? "visible" : "hidden"}
-            variants={fadeInVariants}
-            transition={{ duration: 2.5 }}
-          >
-            <p>ブログアプリ</p>
+          <motion.div initial="hidden" animate={inView4 ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }}>
             <div className="works-img">
               <img src={SampleImg} />
             </div>
-            <p>URL：Comming Soon!</p>
-          </motion.div>
-        </div>
-        <div className="works-app" ref={ref6}>
-          <motion.div
-            initial="hidden"
-            animate={inView6 ? "visible" : "hidden"}
-            variants={fadeInVariants}
-            transition={{ duration: 2.5 }}
-          >
-            <p>サンプルアプリ</p>
-            <div className="works-img">
-              <img src={SampleImg} alt="works-image" />
-            </div>
-            <p>URL：Comming Soon!</p>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+              <span>ブログアプリ</span>
+            </a>
           </motion.div>
         </div>
       </div>

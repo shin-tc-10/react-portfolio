@@ -632,16 +632,15 @@ footer img {
   }
 
   .skill {
-    width: 15%;
-    height: 200px;
+    width: 17%;
     box-shadow: 0 0 5px gray;
-    margin: 20px;
+    margin: 10px auto;
     background: white;
     opacity: 0.9;
   }
 
   .skill-img img {
-    width: 50%;
+    width: 40%;
   }
 
   .skill p {
@@ -658,8 +657,7 @@ footer img {
   }
 
   .qualification {
-    width: 40%;
-    margin: 10px;
+    width: 45%;
     margin: 0 auto;
     margin-bottom: 30px;
   }

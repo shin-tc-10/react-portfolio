@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import PortfolioWebsiteImg from "../images/portfolio-website.png";
 import TodoApp from "../images/todo-app.png";
 import SampleImg from "../images/sample.png";
-import NextSnsAppImg from "../images/next-sns-app-img.png";
+import NextSnsAppImg from "../images/next-sns-app.png";
 
 function Works() {
   const [ref, inView] = useInView({ triggerOnce: true, });
@@ -59,6 +59,9 @@ function Works() {
             <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
               <span>Next.js Blog App</span>
             </a>
+            {/* <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+              <span>GitHub Link</span>
+            </a> */}
           </motion.div>
         </div>
       </div>

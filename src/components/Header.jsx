@@ -22,33 +22,12 @@ function Header() {
           <span></span>
         </div>
         <nav className={`menu ${isMenuOpen ? "open" : ""}`}>
-          <Link to="works" spy={true} smooth={true} offset={50} duration={500}>
-            Works
-          </Link>
-          <Link
-            to="selfStudy"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            SelfStudy
-          </Link>
-          <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>
-            Skills
-          </Link>
-          <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
-            About
-          </Link>
-          <Link
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            Link
-          </Link>
+          <Link to="works" spy={true} smooth={true} offset={50} duration={500}>Works</Link>
+          <Link to="selfStudy" spy={true} smooth={true} offset={50} duration={500}>SelfStudy</Link>
+          <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>Skills</Link>
+          <Link to="qualifications" spy={true} smooth={true} offset={50} duration={500}>Qualifications</Link>
+          <Link to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link>
+          <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Link</Link>
         </nav>
       </>
     </header>

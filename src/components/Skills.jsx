@@ -42,21 +42,21 @@ const Skills = () => {
             <div className="skill-img">
               <img src={HtmlImg} />
             </div>
-            <p>実務経験2.5年</p>
+            <p>実務経験3年</p>
           </div>
           <div className="skill">
             <p>CSS</p>
             <div className="skill-img">
               <img src={CssImg} alt="works-image" />
             </div>
-            <p>実務経験2.5年</p>
+            <p>実務経験3年</p>
           </div>
           <div className="skill">
             <p>JavaScript</p>
             <div className="skill-img">
               <img src={JavaScriptImg} alt="works-image" />
             </div>
-            <p>実務経験2.5年</p>
+            <p>実務経験3年</p>
           </div>
           <div className="skill">
             <p>TypeScript</p>
@@ -77,21 +77,21 @@ const Skills = () => {
             <div className="skill-img">
               <img src={ReactImg} alt="works-image" />
             </div>
-            <p>独学3ヶ月</p>
+            <p>独学4ヶ月</p>
           </div>
           <div className="skill">
             <p>Next.js</p>
             <div className="skill-img">
               <img src={NextJsImg} alt="works-image" />
             </div>
-            <p>独学3ヶ月</p>
+            <p>独学4ヶ月</p>
           </div>
           <div className="skill">
             <p>Java</p>
             <div className="skill-img">
               <img src={JavaImg} alt="works-image" />
             </div>
-            <p>実務経験2.5年</p>
+            <p>実務経験3年</p>
           </div>
           <div className="skill">
             <p>SpringBoot</p>

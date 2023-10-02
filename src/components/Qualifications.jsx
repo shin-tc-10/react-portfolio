@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import JavaGoldImg from "../images/GLDSE11JPN.jpg";
 import JavaSilverImg from "../images/SILVSE11JPN.jpg";
+import SeoSpecialistImg from "../images/seo-specialist-logo.png";
 
 const Qualifications = () => {
   const [ref, inView] = useInView({
@@ -37,6 +38,13 @@ const Qualifications = () => {
               <img src={JavaSilverImg} alt="qualification-img" />
             </div>
             <p>取得日：2022年3月</p>
+          </div>
+          <div className="qualification">
+            <p>全日本SEO協会認定SEOスペシャリスト</p>
+            <div className="qualification-img">
+              <img src={SeoSpecialistImg} alt="qualification-img" />
+            </div>
+            <p>取得日：2022年12月</p>
           </div>
         </div>
       </motion.div>

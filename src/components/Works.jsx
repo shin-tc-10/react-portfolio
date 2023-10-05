@@ -57,7 +57,7 @@ function Works() {
               <img src={SampleImg} />
             </div>
             <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
-              <span>Next.js Blog App</span>
+              <span>Next.js Original App</span>
             </a>
             {/* <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
               <span>GitHub Link</span>

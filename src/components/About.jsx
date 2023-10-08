@@ -14,12 +14,7 @@ function About() {
 
   return (
     <div className="about-me" id="about" ref={ref}>
-      <motion.div
-        initial="hidden"
-        animate={inView ? "visible" : "hidden"}
-        variants={fadeInVariants}
-        transition={{ duration: 2.0 }}
-      >
+      <motion.div initial="hidden" animate={inView ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.0 }}>
         <h2>About</h2>
         <div className="cp_timeline04">
           <div className="timeline_item">

@@ -10,8 +10,6 @@ function Header() {
 
   return (
     <header className="header">
-      {/* <div className="logo">Your Logo</div> */}
-      {/* メディアクエリでスマートフォンの幅以下の場合に表示 */}
       <>
         <div
           className={`hamburger ${isMenuOpen ? "open" : ""}`}

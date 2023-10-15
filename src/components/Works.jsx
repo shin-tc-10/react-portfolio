@@ -2,9 +2,11 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import PortfolioWebsiteImg from "../images/portfolio-website.png";
-import TodoApp from "../images/todo-app.png";
+import TodoApp from "../images/react-todo-app.png";
 import SampleImg from "../images/sample.png";
 import NextSnsAppImg from "../images/next-sns-app.png";
+import PhotoSearchAppImg from "../images/photo-search-app.png";
+
 
 function Works() {
   const [ref, inView] = useInView({ triggerOnce: true, });
@@ -26,7 +28,7 @@ function Works() {
             <div className="works-img">
               <img src={TodoApp} alt="works-image" />
             </div>
-            <a href="https://react-todo-app-delta-silk.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+            <a href="https://react-first-todo.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
               <span>React.js Todo App</span>
             </a>
           </motion.div>
@@ -54,14 +56,11 @@ function Works() {
         <div className="works-app" ref={ref4}>
           <motion.div initial="hidden" animate={inView4 ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }}>
             <div className="works-img">
-              <img src={SampleImg} />
+              <img src={PhotoSearchAppImg} />
             </div>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
-              <span>Next.js Original App</span>
+            <a href="https://next-photo-search-blond.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+              <span>Next.js Photo Search App</span>
             </a>
-            {/* <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
-              <span>GitHub Link</span>
-            </a> */}
           </motion.div>
         </div>
       </div>

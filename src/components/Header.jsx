@@ -18,6 +18,7 @@ function Header() {
           <span></span>
           <span></span>
           <span></span>
+
         </div>
         <nav className={`menu ${isMenuOpen ? "open" : ""}`}>
           <Link to="works" spy={true} smooth={true} offset={50} duration={500}>Works</Link>

@@ -3,7 +3,6 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import PortfolioWebsiteImg from "../images/portfolio-website.png";
 import TodoApp from "../images/react-todo-app.png";
-import SampleImg from "../images/sample.png";
 import NextSnsAppImg from "../images/next-sns-app.png";
 import PhotoSearchAppImg from "../images/photo-search-app.png";
 

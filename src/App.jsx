@@ -4,10 +4,7 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import LoadingIndicator from "./components/LoadingIndicator";
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import BlogApp from "./components/BlogApp";
-import WebSite from "./components/WebSite";
-import NextSnsApp from "./components/NextSnsApp";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -55,16 +52,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <div
-          className="mouse-stalker"
-          style={{ left: cursorPosition.x, top: cursorPosition.y }}
-        ></div>
+        <div className="mouse-stalker" style={{ left: cursorPosition.x, top: cursorPosition.y }}></div>
         <Header />
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/BlogApp" element={<BlogApp />} />
-          <Route path="/WebSite" element={<WebSite />} />
-          <Route path="/NextSnsApp" element={<NextSnsApp />} />
         </Routes>
         <Footer />
       </div>

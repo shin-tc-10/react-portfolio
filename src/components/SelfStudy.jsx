@@ -70,13 +70,6 @@ const SelfStudy = () => {
             </div>
             <p>習得技術：SpringBoot2</p>
           </div>
-          <div className="self-study-evidence">
-            {/* <p>Coming Soon</p>
-            <div className="self-study-evidence-img">
-              <img src={} alt="self-study-evidence" />
-            </div>
-            <p>Coming Soon</p> */}
-          </div>
         </div>
       </motion.div>
     </div>

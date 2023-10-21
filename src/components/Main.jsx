@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-scroll";
 import About from "./About";
 import Works from "./Works";
 import Skills from "./Skills";

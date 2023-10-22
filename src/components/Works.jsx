@@ -27,9 +27,15 @@ function Works() {
             <div className="works-img">
               <img src={TodoApp} alt="works-image" />
             </div>
-            <a href="https://react-first-todo.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
-              <span>React.js Todo App</span>
-            </a>
+            <div className="button-link">
+                <a href="https://react-first-todo.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+                  <span>Todo App</span>
+                </a>
+                <a href="https://github.com/shin-tc-10/react-first-todo" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+                  <span>ソースコード</span>
+                </a>
+            </div>
+
           </motion.div>
         </div>
         <div className="works-app" ref={ref2}>
@@ -37,9 +43,14 @@ function Works() {
             <div className="works-img">
               <img src={PortfolioWebsiteImg} alt="works-image" />
             </div>
-            <a href="/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
-            <span>React.js Web Site</span>
-            </a>
+            <div className="button-link">
+              <a href="https://shin-react-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+                <span>Portfolio Site</span>
+              </a>
+              <a href="https://github.com/shin-tc-10/shin-react-portfolio" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+                <span>ソースコード</span>
+              </a>
+            </div>
           </motion.div>
         </div>
         <div className="works-app" ref={ref3}>
@@ -47,9 +58,14 @@ function Works() {
             <div className="works-img">
               <img src={NextSnsAppImg} alt="works-image" />
             </div>
-            <a href="https://next-sns-client-ten.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
-              <span>Next.js SNS App</span>
-            </a>
+            <div className="button-link">
+              <a href="https://next-sns-client-ten.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+                <span>SNS App</span>
+              </a>
+              <a href="https://github.com/shin-tc-10/next-sns-client" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+                <span>ソースコード</span>
+              </a>
+            </div>
           </motion.div>
         </div>
         <div className="works-app" ref={ref4}>
@@ -57,9 +73,15 @@ function Works() {
             <div className="works-img">
               <img src={PhotoSearchAppImg} />
             </div>
-            <a href="https://next-photo-search-blond.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
-              <span>Next.js Photo Search App</span>
-            </a>
+            <div className="button-link">
+              <a href="https://next-photo-search-blond.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+                <span>Photo Search</span>
+              </a>
+              <a href="https://github.com/shin-tc-10/next-photo-search" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+                <span>ソースコード</span>
+              </a>
+            </div>
+            
           </motion.div>
         </div>
       </div>

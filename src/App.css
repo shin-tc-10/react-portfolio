@@ -30,15 +30,19 @@ HTML CSS Result Skip Results Iframe *,
   box-sizing: inherit;
 }
 
+.button-link {
+  display: flex;
+  justify-content: center;
+}
+
 .btn,
 a.btn,
 button.btn {
+  width: 25%;
   font-size: 0.8rem;
-  font-weight: 700;
   line-height: 1.5;
   position: relative;
   display: inline-block;
-  padding: 1rem 4rem;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -47,19 +51,16 @@ button.btn {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
   letter-spacing: 0.1em;
-  color: #212529;
-  border-radius: 0.5rem;
 }
 
 a.btn-flat {
   overflow: hidden;
-  padding: 1.0rem 2rem;
+  padding: 1.0rem;
   color: #6a6a6a;
-  border-radius: 0;
+  border-radius: 0.2rem;
   background: #124656;
+  margin: 10px;
 }
 
 a.btn-flat span {

@@ -35,7 +35,6 @@ function Works() {
                   <span>ソースコード</span>
                 </a>
             </div>
-
           </motion.div>
         </div>
         <div className="works-app" ref={ref2}>
@@ -81,7 +80,6 @@ function Works() {
                 <span>ソースコード</span>
               </a>
             </div>
-            
           </motion.div>
         </div>
       </div>

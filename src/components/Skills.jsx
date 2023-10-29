@@ -5,6 +5,7 @@ import GitHubImg from "../images/github-icon.svg";
 import LinuxImg from "../images/linux-tux.svg";
 import TypeScriptImg from "../images/typescript-icon.svg";
 import NextJsImg from "../images/nextjs-icon.svg";
+import NestJsImg from "../images/nestjs.svg";
 import FireBaseImg from "../images/firebase.svg";
 import HtmlImg from "../images/html.svg";
 import CssImg from "../images/css.svg";
@@ -72,14 +73,21 @@ const Skills = () => {
             <div className="skill-img">
               <img src={ReactImg} alt="works-image" />
             </div>
-            <p>独学4ヶ月</p>
+            <p>独学6ヶ月</p>
           </div>
           <div className="skill">
             <p>Next.js</p>
             <div className="skill-img">
               <img src={NextJsImg} alt="works-image" />
             </div>
-            <p>独学4ヶ月</p>
+            <p>独学6ヶ月</p>
+          </div>
+          <div className="skill">
+            <p>Nest.js</p>
+            <div className="skill-img">
+              <img src={NestJsImg} alt="works-image" />
+            </div>
+            <p>独学1ヶ月</p>
           </div>
           <div className="skill">
             <p>Java</p>
@@ -130,13 +138,13 @@ const Skills = () => {
             </div>
             <p>実務経験2年</p>
           </div>
-          <div className="skill">
+          {/* <div className="skill">
             <p>FireBase</p>
             <div className="skill-img">
               <img src={FireBaseImg} alt="works-image" />
             </div>
             <p>独学2ヶ月</p>
-          </div>
+          </div> */}
         </div>
       </motion.div>
     </div>

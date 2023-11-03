@@ -6,7 +6,6 @@ import LinuxImg from "../images/linux-tux.svg";
 import TypeScriptImg from "../images/typescript-icon.svg";
 import NextJsImg from "../images/nextjs-icon.svg";
 import NestJsImg from "../images/nestjs.svg";
-import FireBaseImg from "../images/firebase.svg";
 import HtmlImg from "../images/html.svg";
 import CssImg from "../images/css.svg";
 import JavaScriptImg from "../images/javascript.svg";
@@ -138,13 +137,6 @@ const Skills = () => {
             </div>
             <p>実務経験2年</p>
           </div>
-          {/* <div className="skill">
-            <p>FireBase</p>
-            <div className="skill-img">
-              <img src={FireBaseImg} alt="works-image" />
-            </div>
-            <p>独学2ヶ月</p>
-          </div> */}
         </div>
       </motion.div>
     </div>

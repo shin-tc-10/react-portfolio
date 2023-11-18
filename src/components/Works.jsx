@@ -21,7 +21,7 @@ function Works() {
   return (
     <div className="works" id="works">
       <h2>Works</h2>
-      <p>ReactまたはNext.jsで制作したポートフォリオです。</p>
+      <p>ReactまたはNext.jsで制作したWebアプリです。</p>
       <br/>
       <div className="works-app-box">
         <div className="works-app" ref={ref}>

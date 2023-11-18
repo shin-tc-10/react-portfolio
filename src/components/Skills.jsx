@@ -60,7 +60,7 @@ const Skills = () => {
             <div className="skill-img">
               <img src={TypeScriptImg} alt="works-image" />
             </div>
-            <p>実務経験0.6年</p>
+            <p>実務経験0.8年</p>
           </div>
           <div className="skill">
             <p>jQuery</p>
@@ -74,14 +74,14 @@ const Skills = () => {
             <div className="skill-img">
               <img src={ReactImg} alt="works-image" />
             </div>
-            <p>独学6ヶ月</p>
+            <p>独学7ヶ月</p>
           </div>
           <div className="skill">
             <p>Next.js</p>
             <div className="skill-img">
               <img src={NextJsImg} alt="works-image" />
             </div>
-            <p>独学6ヶ月</p>
+            <p>独学7ヶ月</p>
           </div>
           <div className="skill">
             <p>Nest.js</p>

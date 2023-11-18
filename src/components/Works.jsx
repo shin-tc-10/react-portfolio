@@ -21,6 +21,8 @@ function Works() {
   return (
     <div className="works" id="works">
       <h2>Works</h2>
+      <p>ReactまたはNext.jsで制作したポートフォリオです。</p>
+      <br/>
       <div className="works-app-box">
         <div className="works-app" ref={ref}>
           <motion.div initial="hidden" animate={inView ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }} >

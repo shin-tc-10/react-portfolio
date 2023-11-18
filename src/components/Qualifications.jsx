@@ -19,6 +19,8 @@ const Qualifications = () => {
     <div className="qualifications" id="qualifications" ref={ref}>
       <motion.div initial="hidden" animate={inView ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.0 }}>
         <h2>Qualification</h2>
+        <p>取得した資格です。</p>
+        <br/>
         <div className="qualifications-box">
           <div className="qualification">
             <p>Java Programmer Gold SE11</p>

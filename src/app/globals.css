@@ -103,7 +103,7 @@ a.btn-flat:hover:before {
 }
 
 section {
-  /* margin-bottom: 200px; */
+  padding-bottom: 200px;
 }
 
 /* ヘッダー */
@@ -542,7 +542,7 @@ footer img {
   }
 
   .qualification-img img {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .qualifications p {
@@ -660,6 +660,7 @@ footer img {
   .qualifications-box {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
   }
 
   .qualification {

@@ -26,21 +26,21 @@ const Qualifications = () => {
           <div className="qualification">
             <p>Java Programmer Gold SE11</p>
             <div className="qualification-img">
-              <Image src={JavaGoldImg} alt="qualification-img" />
+              <Image src={JavaGoldImg} alt="qualification-img" width={370}/>
             </div>
             <p>取得日：2022年11月</p>
           </div>
           <div className="qualification">
             <p>Java Programmer Silver SE11</p>
             <div className="qualification-img">
-              <Image src={JavaSilverImg} alt="qualification-img" />
+              <Image src={JavaSilverImg} alt="qualification-img" width={370}/>
             </div>
             <p>取得日：2022年3月</p>
           </div>
           <div className="qualification">
             <p>全日本SEO協会認定SEOスペシャリスト</p>
             <div className="qualification-img">
-              <Image src={SeoSpecialistImg} alt="qualification-img" />
+              <Image src={SeoSpecialistImg} alt="qualification-img" width={350}/>
             </div>
             <p>取得日：2022年12月</p>
           </div>

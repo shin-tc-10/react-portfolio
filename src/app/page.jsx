@@ -27,7 +27,7 @@ const Main = () => {
       <Header />
       <main>
         <div className={`fade-in-text ${isFadeIn ? "fade-in" : ""}`}>
-          <h1 className="glowing-text">Shin's Portfolio Site</h1>
+          <h1 className="glowing-text">Next Portfolio Site</h1>
         </div>
         <section>
           <Works />

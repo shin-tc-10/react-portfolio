@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
       <footer>
-        <p>©︎2023 Shin's Portfolio Site</p>
+        <p>©︎2023 Next Portfolio Site</p>
       </footer>
     </div>
   );

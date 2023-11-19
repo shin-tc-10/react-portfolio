@@ -9,6 +9,7 @@ import Qualifications from "./components/Qualifications";
 import SelfStudy from "./components/SelfStudy";
 import MyLink from "./components/MyLink";
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 const Main = () => {
   const [isFadeIn, setIsFadeIn] = useState(false);
@@ -33,6 +34,9 @@ const Main = () => {
           <Works />
         </section>
         <section>
+          <MyLink />
+        </section>
+        <section>
           <SelfStudy />
         </section>
         <section>
@@ -44,10 +48,8 @@ const Main = () => {
         <section>
           <About />
         </section>
-        <section>
-          <MyLink />
-        </section>
       </main>
+      <Footer />
     </div>
   );
 };

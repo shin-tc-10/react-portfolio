@@ -31,8 +31,7 @@ const Skills = () => {
   return (
     <div className="skills" id="skills" ref={ref}>
       <motion.div initial="hidden" animate={inView ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.0 }}>
-        <h2>My Skills</h2>
-        <p>スキル別で実務経験の年数や独学の学習期間をまとめました。</p>
+        <h2>Skills</h2>
         <br/>
         <div className="skills-box">
           <div className="skill">

@@ -196,7 +196,7 @@ main {
 .about-me {
   width: 80%;
   margin: 0 auto;
-  padding-bottom: 10em;
+  padding-bottom: 5em;
 }
 
 .cp_timeline04 {
@@ -552,7 +552,7 @@ footer img {
 
 /** タブレット ****************/
 /***************************/
-@media (min-width: 768px) and (max-width: 1023px) {}
+/* @media (min-width: 768px) and (max-width: 1023px) {} */
 
 
 /** PC *********************/

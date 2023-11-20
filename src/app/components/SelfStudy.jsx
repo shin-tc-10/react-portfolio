@@ -27,8 +27,7 @@ const SelfStudy = () => {
         variants={fadeInVariants}
         transition={{ duration: 2.0 }}
       >
-        <h2>Self Study Evidence</h2>
-        <p>学習記録です。プライベートでは主にUdemyや参考書で学習することが多いです。</p>
+        <h2>SelfStudy</h2>
         <br/>
         <div className="self-study-evidence-box">
           <div className="self-study-evidence">

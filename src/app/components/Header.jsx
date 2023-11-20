@@ -17,11 +17,11 @@ function Header() {
       </div>
       <nav className={`menu ${isMenuOpen ? "open" : ""}`}>
         <Link to="works" smooth={true} duration={500}>Works</Link>
+        <Link to="contact" smooth={true} duration={500}>Blog/GitHub</Link>
         <Link to="selfStudy" smooth={true}  duration={500}>SelfStudy</Link>
         <Link to="skills" smooth={true}  duration={500}>Skills</Link>
         <Link to="qualifications" smooth={true} duration={500}>Qualifications</Link>
         <Link to="about" smooth={true}  duration={500}>About</Link>
-        <Link to="contact" smooth={true} duration={500}>Link</Link>
       </nav>
     </header>
   );

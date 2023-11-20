@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
-import PortfolioWebsiteImg from "../../../public/images/portfolio-website.png";
-import TodoApp from "../../../public/images/react-todo-app.png";
-import NextSnsAppImg from "../../../public/images/next-sns-app.png";
-import PhotoSearchAppImg from "../../../public/images/photo-search-app.png";
+import NextPortfolioSiteImage from "../../../public/images/next-portfolio-site.png";
+import ReactTodoListImage from "../../../public/images/react-todo-list.png";
+import NextSnsAppImage from "../../../public/images/next-sns-app.png";
+import PhotoSearchAppImage from "../../../public/images/photo-search-app.png";
 
 
 function Works() {
@@ -27,7 +27,7 @@ function Works() {
         <div className="works-app" ref={ref}>
           <motion.div initial="hidden" animate={inView ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }} >
             <div className="works-img">
-              <Image src={TodoApp} alt="works-image" />
+              <Image src={ReactTodoListImage} alt="works-image" />
             </div>
             <div className="button-link">
                 <a href="https://react-first-todo.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
@@ -42,7 +42,7 @@ function Works() {
         <div className="works-app" ref={ref2}>
           <motion.div initial="hidden" animate={inView2 ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }}>
             <div className="works-img">
-              <Image src={PortfolioWebsiteImg} alt="works-image" />
+              <Image src={NextPortfolioSiteImage} alt="works-image" />
             </div>
             <div className="button-link">
               <a href="https://shin-react-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
@@ -57,7 +57,7 @@ function Works() {
         <div className="works-app" ref={ref3}>
           <motion.div initial="hidden" animate={inView3 ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }}>
             <div className="works-img">
-              <Image src={NextSnsAppImg} alt="works-image" />
+              <Image src={NextSnsAppImage} alt="works-image" />
             </div>
             <div className="button-link">
               <a href="https://next-sns-client-ten.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
@@ -72,7 +72,7 @@ function Works() {
         <div className="works-app" ref={ref4}>
           <motion.div initial="hidden" animate={inView4 ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }}>
             <div className="works-img">
-              <Image src={PhotoSearchAppImg} />
+              <Image src={PhotoSearchAppImage} />
             </div>
             <div className="button-link">
               <a href="https://next-photo-search-blond.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">

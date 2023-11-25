@@ -1,3 +1,4 @@
 {
+  "/components/pages/page": "app/components/pages/page.js",
   "/page": "app/page.js"
 }

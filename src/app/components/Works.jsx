@@ -6,6 +6,7 @@ import NextPortfolioSiteImage from "../../../public/images/next-portfolio-site.p
 import ReactTodoListImage from "../../../public/images/react-todo-list.png";
 import NextSnsAppImage from "../../../public/images/next-sns-app.png";
 import PhotoSearchAppImage from "../../../public/images/photo-search-app.png";
+import Link from 'next/link'
 
 
 function Works() {
@@ -26,8 +27,13 @@ function Works() {
       <div className="works-app-box">
         <div className="works-app" ref={ref}>
           <motion.div initial="hidden" animate={inView ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }} >
-            <div className="works-img">
-              <Image src={ReactTodoListImage} alt="works-image" />
+            <div className="works-img sample7">
+              <Link href="/components/pages">
+                <Image src={ReactTodoListImage} alt="works-image" />
+                <div class="mask">
+                  <div class="caption">詳細を見る</div>
+                </div>
+              </Link>
             </div>
             <div className="button-link">
                 <a href="https://react-first-todo.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">

@@ -86,14 +86,6 @@ a.btn-flat:hover:before {
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
-/* .App {
-  font-size: 1.0rem;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.538);
-
-} */
-
 .scroll-arrow {
   margin-bottom: 200px;
 }
@@ -154,42 +146,8 @@ nav {
   height: 100vh;
 }
 
-
 main {
   background-color: rgba(0, 0, 0, 0.538);
-}
-
-
-/** ロード中 */
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  /* 半透明の黒 */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@keyframes blink {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-.loading-text {
-  animation: blink 1s infinite;
 }
 
 /** aboutMe */
@@ -277,7 +235,6 @@ main {
 
 
 /** Blog/GitHub*/
-/** リンク集テーブル */
 .link-table table {
   width: 90%;
   border-collapse: collapse;
@@ -365,16 +322,6 @@ footer img {
   justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
 .sample7 {
   overflow: hidden;
   margin: 10px 8px 10px 16px;
@@ -406,12 +353,6 @@ footer img {
   opacity: 1;
   /* ホバーで表示する */
 }
-
-
-
-
-
-
 
 
 /** スマートフォン ***********/

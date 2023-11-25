@@ -8,8 +8,6 @@ import Skills from "./components/Skills";
 import Qualifications from "./components/Qualifications";
 import SelfStudy from "./components/SelfStudy";
 import MyLink from "./components/MyLink";
-import Header from './components/Header';
-import Footer from './components/Footer';
 
 const Main = () => {
   const [isFadeIn, setIsFadeIn] = useState(false);
@@ -25,7 +23,6 @@ const Main = () => {
 
   return (
     <div>
-      <Header />
       <main>
         <div className={`fade-in-text ${isFadeIn ? "fade-in" : ""}`}>
           <h1 className="glowing-text">Next Portfolio Site</h1>
@@ -49,7 +46,6 @@ const Main = () => {
           <About />
         </section>
       </main>
-      <Footer />
     </div>
   );
 };

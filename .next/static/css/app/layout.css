@@ -205,6 +205,14 @@ nav {
   color: rgb(40, 109, 194);
 }
 
+/* h1テキスト点滅 */
+.glowing-text {
+  font-size: 3.0rem;
+  text-shadow: 0 0 10px rgb(95, 102, 150), 0 0 20px rgb(57, 91, 146), 0 0 30px rgb(150, 179, 226), 0 0 40px rgba(63, 101, 177, 0.401);
+  /* テキストに光の影を追加 */
+  font-family: 'Cinzel', serif;
+}
+
 .top {
   height: 100vh;
 }
@@ -364,14 +372,6 @@ main {
   }
 }
 
-/* h1テキスト点滅 */
-.glowing-text {
-  font-size: 3.0rem;
-  text-shadow: 0 0 10px rgb(95, 102, 150), 0 0 20px rgb(57, 91, 146), 0 0 30px rgb(150, 179, 226), 0 0 40px rgba(63, 101, 177, 0.401);
-  /* テキストに光の影を追加 */
-  font-family: 'Cinzel', serif;
-}
-
 /** フッター */
 footer {
   height: 100px;
@@ -401,7 +401,7 @@ footer img {
   font-size: 1.2rem;
   color: #fff;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 83px;
 }
 
 .sample7 .mask {

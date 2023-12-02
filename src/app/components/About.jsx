@@ -35,7 +35,7 @@ function About() {
             </div>
             <div className="desc">
               <p>
-              仕事内容は主に100kg~200kg程の重量物を2人で運搬する重作業。ちなみに面接時は倉庫での軽作業と聞いていた。
+              仕事内容は主に100kg~200kg程の重量物を2人で運搬する重作業(面接時は倉庫での軽作業と聞いていた)
               </p>
             </div>
           </div>
@@ -52,7 +52,7 @@ function About() {
           </div>
           <div className="timeline_item">
             <div className="time_date">
-              <p className="time">2022</p>
+              <p className="time">2020</p>
               <p className="flag">未経験からITエンジニアに転職</p>
             </div>
             <div className="desc">

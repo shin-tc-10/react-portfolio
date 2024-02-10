@@ -28,12 +28,12 @@ function Works() {
         <div className="works-app" ref={ref}>
           <motion.div initial="hidden" animate={inView ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }} >
             <div className="works-img sample7">
-              <Link href="/components/pages">
-                <Image src={ReactTodoListImage} alt="works-image" />
+            <Image src={ReactTodoListImage} alt="works-image" />
+              {/* <Link href="/components/pages">
                 <div class="mask">
                   <div class="caption">詳細を見る</div>
                 </div>
-              </Link>
+              </Link> */}
             </div>
             <div className="button-link">
                 <a href="https://react-first-todo.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">

@@ -60,7 +60,7 @@ function Works() {
             </div>
           </motion.div>
         </div>
-        <div className="works-app" ref={ref3}>
+        {/* <div className="works-app" ref={ref3}>
           <motion.div initial="hidden" animate={inView3 ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }}>
             <div className="works-img">
               <Image src={NextSnsAppImage} alt="works-image" />
@@ -74,7 +74,7 @@ function Works() {
               </a>
             </div>
           </motion.div>
-        </div>
+        </div> */}
         <div className="works-app" ref={ref4}>
           <motion.div initial="hidden" animate={inView4 ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }}>
             <div className="works-img">

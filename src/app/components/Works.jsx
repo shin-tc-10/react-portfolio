@@ -28,7 +28,7 @@ function Works() {
         <div className="works-app" ref={ref}>
           <motion.div initial="hidden" animate={inView ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }} >
             <div className="works-img sample7">
-            <Image src={ReactTodoListImage} alt="works-image" />
+              <Image src={ReactTodoListImage} alt="works-image" width={500} height={300} loading="lazy" />
               {/* <Link href="/components/pages">
                 <div class="mask">
                   <div class="caption">詳細を見る</div>

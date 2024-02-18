@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import NextPortfolioSiteImage from "../../../public/images/next-portfolio-site.png";
 import ReactTodoListImage from "../../../public/images/react-todo-list.png";
-import NextSnsAppImage from "../../../public/images/next-sns-app.png";
+import NextBlogAppImage from "../../../public/images/next-blog-app.png";
 import PhotoSearchAppImage from "../../../public/images/photo-search-app.png";
 import Link from 'next/link'
 
@@ -60,21 +60,21 @@ function Works() {
             </div>
           </motion.div>
         </div>
-        {/* <div className="works-app" ref={ref3}>
+        <div className="works-app" ref={ref3}>
           <motion.div initial="hidden" animate={inView3 ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }}>
             <div className="works-img">
-              <Image src={NextSnsAppImage} alt="works-image" />
+              <Image src={NextBlogAppImage} alt="works-image" />
             </div>
             <div className="button-link">
-              <a href="https://next-sns-client-ten.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
-                <span>SNS App</span>
+              <a href="https://shin-next-blog-app.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+                <span>Blog App</span>
               </a>
-              <a href="https://github.com/shin-tc-10/next-sns-client" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
+              <a href="https://github.com/shin-tc-10/next-blog-app" target="_blank" rel="noopener noreferrer" className="btn btn-flat">
                 <span>ソースコード</span>
               </a>
             </div>
           </motion.div>
-        </div> */}
+        </div>
         <div className="works-app" ref={ref4}>
           <motion.div initial="hidden" animate={inView4 ? "visible" : "hidden"} variants={fadeInVariants} transition={{ duration: 2.5 }}>
             <div className="works-img">
